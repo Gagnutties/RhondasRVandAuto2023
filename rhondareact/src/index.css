@@ -1,0 +1,282 @@
+/*
+https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff
+link for color palette.
+*/
+
+
+
+body { /*Everything is in the body this is like <html> element*/
+  background-color: #F5F3F4;
+  margin: 0px;
+}
+
+
+
+#rhondaheading { /*Header Section*/
+  background-color: #660708;
+  width: 100%;
+  height: 60px;
+  padding: 6px;
+
+  display: flex;
+  flex-direction: row;
+}
+h1 { /*Main Header Rhondas TODO Black for backdrop*/
+  display: block;
+  font-size: 3em;
+  font-family: 'Lobster';
+  color: #E5383B;
+  text-shadow: 1px 1px 0px #F5F3F4;
+  padding-left: 4%;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0em;
+}
+#small_header {
+  display: none;
+}
+#vehiclesearch {
+  width: 30%;
+  height: 30px;
+  margin: auto;
+  margin-right: 5%;
+  border-radius: 20px;
+  background-color: #F5F3F4;
+  
+  color: #E5383B;
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+  font-weight: 900;
+  text-indent: 20px;
+}
+
+
+
+#navigation { /*Navigation Section*/
+  background-color: #E5383B;
+  text-align: right;
+  padding: 12px;
+}
+nav {
+  margin-right: 4%;
+  cursor: pointer;
+}
+a {
+  color: #660708;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  padding-left: 4%;
+  text-decoration: none;
+}
+
+
+
+.section {
+  padding-left: 4%;
+}
+
+#featured_cars {
+  display: inline-block;
+  justify-content: center;
+}
+.image_placeholder {
+  background-color: #E5383B;
+  width: 300px;
+  height: 200px;
+}
+
+
+
+#vehicle_section {
+  padding-top: 20px;
+}
+#navigation_vehicles { /*Navigation Section*/
+  background-color: #E5383B;
+  text-align: center;
+  padding: 12px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+#vehicle_list {
+  display: inline-block;
+  justify-content: center;
+}
+#panelheader {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.vehiclenode {
+  background-color: #660708;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #0B090A;
+
+  float:left;
+  width: 300px;
+  height: 100%;
+  padding: 5px;
+}
+
+
+ /*Main Text Styles Section*/
+h2 {
+  color: #BA181B;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+}
+td {
+  text-align: left;
+}
+
+
+
+/*Information section*/
+#information_section {
+  display: block;
+  padding-left: 0px;
+  text-align: center;
+}
+#information_node {
+  float: left;
+  margin-left: 50px;
+  text-align: left;
+  width: 40%;
+  height: 400px;
+  background-color: #BA181B;
+
+  box-shadow: 5px 5px 5px #0B090A;
+  border-radius: 15px;
+}
+#map_node {
+  float: right;
+  margin-right: 50px;
+  text-align: left;
+  width: 40%;
+  height: 400px;
+  background-color: #BA181B;
+
+  box-shadow: 5px 5px 5px #0B090A;
+  border-radius: 15px;
+}
+.information_head {
+  font-size: 1.5em;
+  color: #F5F3F4;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.information_info {
+  color: #F5F3F4;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.height_padder {
+  height: 500px;
+}
+#information_map {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #0B090A;
+  border-radius: 15px;
+}
+
+/*Footer Section*/
+#footer_section {
+  height: 400px;
+  background-color: #660708;
+}
+#backtotop {
+  width:100%;
+  height: 50px;
+  background-color: #BA181B;
+}
+
+/*Trailer Section*/
+.trailernode {
+  background-color: #660708;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #0B090A;
+
+  float:left;
+  width: 300px;
+  height: 100%;
+  padding: 5px;
+}
+#trailer_list {
+  display: inline-block;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1150px){
+  .section { /*Featured Section Section*/
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+  }
+  #featured_cars {
+    justify-content: center;
+  }
+  .vehiclenode {
+    float: none;
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+  }
+
+  #navigation_vehicles { /*Navigation Section*/
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+
+
+  /*Information Section*/
+  #information_section {
+    padding-right: 0px;
+  }
+
+  /*Information Section*/
+  #information_node {
+    height: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 720px){
+h1 {
+  display: none;
+}
+#small_header {
+  display: block;
+}
+
+#map_node {
+  margin-right: 0px;
+  width: 100%;
+  height: 400px;
+  float:none;
+}
+#information_node {
+  margin-left: 0px;
+  width: 100%;
+  height: 100%;
+  float:none;
+}
+.height_padder {
+  height: 50px;
+}
+}
