@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+
 export default function GetVehicle({category}) {
     const arrayvehicles = []; //The vehicles that we are going to render go here
     const allvehiclearray = []; //the whole list of vehicles that we have
@@ -9,15 +11,15 @@ export default function GetVehicle({category}) {
     //All cars of a passed in category
     //Length of the new list of cars
 
-    let FordEscape_1063 = {
-        Year: "2011",
-        Make: "Ford",
-        Model: "Escape",
-        Miles: "135,000",
+    let HyundaiElantra_9956 = {
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "159,000",
         Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1063",
-        Type: "suvs",
+        ExtColor: "Black",
+        VIN: "9956",
+        Type: "cars",
     }
     let ChevyTahoe_2591 = {
         Year: "2001",
@@ -29,17 +31,77 @@ export default function GetVehicle({category}) {
         VIN: "2591",
         Type: "suvs",
     }
-    let Chrysler200_4453 = {
-        Year: "2014",
-        Make: "Chrysler",
-        Model: "200",
-        Miles: "124,000",
+    let ToyotaSienna_6985 = {
+        Year: "2006",
+        Make: "Toyota",
+        Model: "Sienna",
+        Miles: "181,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "6985",
+        Type: "vans",
+    }
+    let KiaSoul_6863 = {
+        Year: "2012",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "166,000",
         Engine: "Automatic",
         ExtColor: "White",
-        VIN: "4453",
+        VIN: "6863",
+        Type: "suvs",
+    }
+    let Mazda6_0524 = {
+        Year: "2008",
+        Make: "Mazda",
+        Model: "6",
+        Miles: "168,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0524",
         Type: "cars",
     }
-    allvehiclearray.push(Chrysler200_4453, ChevyTahoe_2591, FordEscape_1063);
+    let HondaOdyssey_0102 = {
+        Year: "2008",
+        Make: "Honda",
+        Model: "Odyssey",
+        Miles: "164,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0102",
+        Type: "vans",
+    }
+    let ToyotaCamry_9669 = {
+        Year: "2001",
+        Make: "Toyota",
+        Model: "Camry",
+        Miles: "192,000",
+        Engine: "Automatic",
+        ExtColor: "Beige",
+        VIN: "9669",
+        Type: "cars",
+    }
+    let DodgeRam_2347 = {
+        Year: "2004",
+        Make: "Dodge",
+        Model: "Ram",
+        Miles: "190,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "2347",
+        Type: "trucks",
+    }
+    let KiaSoul_7237 = {
+        Year: "2013",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "170,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "7237",
+        Type: "suvs",
+    }
+    allvehiclearray.push(HyundaiElantra_9956, ToyotaSienna_6985, KiaSoul_6863, ToyotaCamry_9669, Mazda6_0524, HondaOdyssey_0102, ChevyTahoe_2591, KiaSoul_7237, DodgeRam_2347);
 
 
     
@@ -52,7 +114,8 @@ export default function GetVehicle({category}) {
                 Model={allvehiclearray[i].Model}
                 Miles={allvehiclearray[i].Miles} 
                 Engine={allvehiclearray[i].Engine} 
-                ExtColor={allvehiclearray[i].ExtColor}/>)
+                ExtColor={allvehiclearray[i].ExtColor}
+                VIN={allvehiclearray[i].VIN}/>)
         }
     } else {
         for (let i = 0; i<allvehiclearray.length; i++){
@@ -63,7 +126,8 @@ export default function GetVehicle({category}) {
                     Model={allvehiclearray[i].Model}
                     Miles={allvehiclearray[i].Miles} 
                     Engine={allvehiclearray[i].Engine} 
-                    ExtColor={allvehiclearray[i].ExtColor}/>)
+                    ExtColor={allvehiclearray[i].ExtColor}
+                    VIN={allvehiclearray[i].VIN}/>)
             }
         }
     }
@@ -91,11 +155,11 @@ This function will grab information from the Django data
 base and make vehiclenodes that will appear on the main
 page 
 */
-function VehicleNode({Year,Make,Model,Miles,Engine,ExtColor}) { 
+function VehicleNode({Year,Make,Model,Miles,Engine,ExtColor,VIN}) { 
     return (
         <div class="vehiclenode">
             <h3 id="panelheader">{Year+" "+Make+" "+Model}</h3>
-            <div class="image_placeholder"></div>
+            <img class="image_placeholder" src={"./assets/"+Make+Model+"_"+VIN+".jpg"} alt=""></img>
             <table>
                 <tbody>
                 <tr>
