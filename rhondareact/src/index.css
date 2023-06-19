@@ -49,6 +49,8 @@ h1 { /*Main Header Rhondas TODO Black for backdrop*/
   font-size: larger;
   font-weight: 900;
   text-indent: 20px;
+
+  display: none;
 }
 
 
