@@ -61,16 +61,6 @@ export default function GetVehicle({category}) {
         VIN: "0524",
         Type: "cars",
     }
-    let HondaOdyssey_0102 = {
-        Year: "2008",
-        Make: "Honda",
-        Model: "Odyssey",
-        Miles: "164,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0102",
-        Type: "vans",
-    }
     let ToyotaCamry_9669 = {
         Year: "2001",
         Make: "Toyota",
@@ -101,7 +91,132 @@ export default function GetVehicle({category}) {
         VIN: "7237",
         Type: "suvs",
     }
-    allvehiclearray.push(HyundaiElantra_9956, ToyotaSienna_6985, KiaSoul_6863, ToyotaCamry_9669, Mazda6_0524, HondaOdyssey_0102, ChevyTahoe_2591, KiaSoul_7237, DodgeRam_2347);
+
+    let ChevyMalibu_2000 = {
+        Year: "2011",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "168,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "2000",
+        Type: "cars",
+    }
+    let BuickLesabre_2498 = {
+        Year: "2001",
+        Make: "Buick",
+        Model: "Lesabre",
+        Miles: "121,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "2498",
+        Type: "cars",
+    }
+    let DodgeDakota_4735 = {
+        Year: "2006",
+        Make: "Dodge",
+        Model: "Dakota",
+        Miles: "101,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "4735",
+        Type: "trucks",
+    }
+    let HyundaiSonata_1215 = {
+        Year: "2006",
+        Make: "Hyundai",
+        Model: "Sonata",
+        Miles: "174,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "1215",
+        Type: "cars",
+    }
+    let ChevyCobalt_3291 = {
+        Year: "2010",
+        Make: "Chevy",
+        Model: "Cobalt",
+        Miles: "160,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3291",
+        Type: "cars",
+    }
+    let Infinity35_5538 = {
+        Year: "2009",
+        Make: "Infinity",
+        Model: "35",
+        Miles: "172,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "5538",
+        Type: "cars",
+    }
+    let BuickLesabre_3320 = {
+        Year: "1999",
+        Make: "Buick",
+        Model: "Lesabre",
+        Miles: "146,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3320",
+        Type: "cars",
+    }
+    let ChevyMalibu_3119 = {
+        Year: "2012",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "175,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "3119",
+        Type: "cars",
+    }
+    let MercuryMilan_9445 = {
+        Year: "2006",
+        Make: "Mercury",
+        Model: "Milan",
+        Miles: "163,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "9445",
+        Type: "cars",
+    }
+    let DodgeDurango_1606 = {
+        Year: "2006",
+        Make: "Dodge",
+        Model: "Durango",
+        Miles: "157,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "1606",
+        Type: "suvs",
+    }
+    let NissanQuest_0254 = {
+        Year: "2014",
+        Make: "Nissan",
+        Model: "Quest",
+        Miles: "157,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0254",
+        Type: "vans",
+    }
+    let KiaSedona_5247 = {
+        Year: "2016",
+        Make: "Kia",
+        Model: "Sedona",
+        Miles: "168,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "5247",
+        Type: "vans",
+    }
+    allvehiclearray.push(ToyotaSienna_6985, KiaSoul_6863, ToyotaCamry_9669, 
+        Mazda6_0524, ChevyTahoe_2591, KiaSoul_7237, DodgeRam_2347, HyundaiElantra_9956,
+        ChevyMalibu_2000, BuickLesabre_2498, DodgeDakota_4735, HyundaiSonata_1215, ChevyCobalt_3291, 
+        Infinity35_5538, BuickLesabre_3320, ChevyMalibu_3119, MercuryMilan_9445, DodgeDurango_1606,
+        NissanQuest_0254, KiaSedona_5247);
 
 
     
