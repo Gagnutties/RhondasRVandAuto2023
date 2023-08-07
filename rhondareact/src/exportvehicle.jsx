@@ -212,11 +212,10 @@ export default function GetVehicle({category}) {
         VIN: "5247",
         Type: "vans",
     }
-    allvehiclearray.push(ToyotaSienna_6985, KiaSoul_6863, ToyotaCamry_9669, 
-        Mazda6_0524, ChevyTahoe_2591, KiaSoul_7237, DodgeRam_2347, HyundaiElantra_9956,
-        ChevyMalibu_2000, BuickLesabre_2498, DodgeDakota_4735, HyundaiSonata_1215, ChevyCobalt_3291, 
-        Infinity35_5538, BuickLesabre_3320, ChevyMalibu_3119, MercuryMilan_9445, DodgeDurango_1606,
-        NissanQuest_0254, KiaSedona_5247);
+    allvehiclearray.push(KiaSoul_6863, 
+        ChevyTahoe_2591, KiaSoul_7237, HyundaiElantra_9956,
+        BuickLesabre_2498, ChevyCobalt_3291, 
+        Infinity35_5538, BuickLesabre_3320, DodgeDurango_1606, KiaSedona_5247);
 
 
     
