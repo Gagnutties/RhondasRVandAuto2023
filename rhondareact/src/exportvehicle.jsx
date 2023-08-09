@@ -11,16 +11,6 @@ export default function GetVehicle({category}) {
     //All cars of a passed in category
     //Length of the new list of cars
 
-    let HyundaiElantra_9956 = {
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Elantra",
-        Miles: "159,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "9956",
-        Type: "cars",
-    }
     let ChevyTahoe_2591 = {
         Year: "2001",
         Make: "Chevy",
@@ -30,16 +20,6 @@ export default function GetVehicle({category}) {
         ExtColor: "Black",
         VIN: "2591",
         Type: "suvs",
-    }
-    let ToyotaSienna_6985 = {
-        Year: "2006",
-        Make: "Toyota",
-        Model: "Sienna",
-        Miles: "181,000",
-        Engine: "Automatic",
-        ExtColor: "Green",
-        VIN: "6985",
-        Type: "vans",
     }
     let KiaSoul_6863 = {
         Year: "2012",
@@ -51,36 +31,6 @@ export default function GetVehicle({category}) {
         VIN: "6863",
         Type: "suvs",
     }
-    let Mazda6_0524 = {
-        Year: "2008",
-        Make: "Mazda",
-        Model: "6",
-        Miles: "168,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0524",
-        Type: "cars",
-    }
-    let ToyotaCamry_9669 = {
-        Year: "2001",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "192,000",
-        Engine: "Automatic",
-        ExtColor: "Beige",
-        VIN: "9669",
-        Type: "cars",
-    }
-    let DodgeRam_2347 = {
-        Year: "2004",
-        Make: "Dodge",
-        Model: "Ram",
-        Miles: "190,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "2347",
-        Type: "trucks",
-    }
     let KiaSoul_7237 = {
         Year: "2013",
         Make: "Kia",
@@ -91,17 +41,6 @@ export default function GetVehicle({category}) {
         VIN: "7237",
         Type: "suvs",
     }
-
-    let ChevyMalibu_2000 = {
-        Year: "2011",
-        Make: "Chevy",
-        Model: "Malibu",
-        Miles: "168,000",
-        Engine: "Automatic",
-        ExtColor: "Tan",
-        VIN: "2000",
-        Type: "cars",
-    }
     let BuickLesabre_2498 = {
         Year: "2001",
         Make: "Buick",
@@ -110,26 +49,6 @@ export default function GetVehicle({category}) {
         Engine: "Automatic",
         ExtColor: "Silver",
         VIN: "2498",
-        Type: "cars",
-    }
-    let DodgeDakota_4735 = {
-        Year: "2006",
-        Make: "Dodge",
-        Model: "Dakota",
-        Miles: "101,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "4735",
-        Type: "trucks",
-    }
-    let HyundaiSonata_1215 = {
-        Year: "2006",
-        Make: "Hyundai",
-        Model: "Sonata",
-        Miles: "174,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1215",
         Type: "cars",
     }
     let ChevyCobalt_3291 = {
@@ -162,16 +81,6 @@ export default function GetVehicle({category}) {
         VIN: "3320",
         Type: "cars",
     }
-    let ChevyMalibu_3119 = {
-        Year: "2012",
-        Make: "Chevy",
-        Model: "Malibu",
-        Miles: "175,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "3119",
-        Type: "cars",
-    }
     let MercuryMilan_9445 = {
         Year: "2006",
         Make: "Mercury",
@@ -181,16 +90,6 @@ export default function GetVehicle({category}) {
         ExtColor: "White",
         VIN: "9445",
         Type: "cars",
-    }
-    let DodgeDurango_1606 = {
-        Year: "2006",
-        Make: "Dodge",
-        Model: "Durango",
-        Miles: "157,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1606",
-        Type: "suvs",
     }
     let NissanQuest_0254 = {
         Year: "2014",
@@ -202,20 +101,101 @@ export default function GetVehicle({category}) {
         VIN: "0254",
         Type: "vans",
     }
+    let DodgeRam_2347 = {
+        Year: "2004",
+        Make: "Dodge",
+        Model: "Ram",
+        Miles: "190,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "2347",
+        Type: "trucks",
+    }
+    let ChevyImpala_2419 = {
+        Year: "2008",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "76,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "2419",
+        Type: "cars",
+    }
     let KiaSedona_5247 = {
         Year: "2016",
         Make: "Kia",
         Model: "Sedona",
         Miles: "168,000",
         Engine: "Automatic",
-        ExtColor: "Black",
+        ExtColor: "White",
         VIN: "5247",
         Type: "vans",
     }
-    allvehiclearray.push(KiaSoul_6863, 
-        ChevyTahoe_2591, KiaSoul_7237, HyundaiElantra_9956,
-        BuickLesabre_2498, ChevyCobalt_3291, 
-        Infinity35_5538, BuickLesabre_3320, DodgeDurango_1606, KiaSedona_5247);
+    let DodgeAvenger_8692 = {
+        Year: "2010",
+        Make: "Dodge",
+        Model: "Avenger",
+        Miles: "124,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "8692",
+        Type: "cars",
+    }
+    let DodgeJourney_5235 = {
+        Year: "2017",
+        Make: "Dodge",
+        Model: "Journey",
+        Miles: "134,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "5235",
+        Type: "suvs",
+    }
+    let Ford500_6053 = {
+        Year: "2005",
+        Make: "Ford",
+        Model: "500",
+        Miles: "112,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "6053",
+        Type: "cars",
+    }
+    let HondaOdyssey_2781 = {
+        Year: "2010",
+        Make: "Honda",
+        Model: "Odyssey",
+        Miles: "166,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "2781",
+        Type: "vans",
+    }
+    let ChevyAveo_9742 = {
+        Year: "2009",
+        Make: "Chevy",
+        Model: "Aveo",
+        Miles: "141,000",
+        Engine: "Manual",
+        ExtColor: "White",
+        VIN: "9742",
+        Type: "cars",
+    }
+    let HyundaiAccent_0070 = {
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Accent",
+        Miles: "125,000",
+        Engine: "Automatic",
+        ExtColor: "Maroon",
+        VIN: "0070",
+        Type: "cars",
+    }
+
+    allvehiclearray.push(HyundaiAccent_0070, KiaSoul_6863, NissanQuest_0254,
+        ChevyTahoe_2591, ChevyAveo_9742, KiaSoul_7237, MercuryMilan_9445,
+        BuickLesabre_2498, ChevyCobalt_3291, HondaOdyssey_2781, Ford500_6053,
+        Infinity35_5538, BuickLesabre_3320, DodgeJourney_5235, DodgeAvenger_8692, ChevyImpala_2419, KiaSedona_5247, DodgeRam_2347,);
 
 
     
