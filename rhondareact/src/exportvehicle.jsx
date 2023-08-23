@@ -11,16 +11,6 @@ export default function GetVehicle({category}) {
     //All cars of a passed in category
     //Length of the new list of cars
 
-    let ChevyTahoe_2591 = {
-        Year: "2001",
-        Make: "Chevy",
-        Model: "Tahoe",
-        Miles: "171,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "2591",
-        Type: "suvs",
-    }
     let KiaSoul_6863 = {
         Year: "2012",
         Make: "Kia",
@@ -51,26 +41,6 @@ export default function GetVehicle({category}) {
         VIN: "2498",
         Type: "cars",
     }
-    let ChevyCobalt_3291 = {
-        Year: "2010",
-        Make: "Chevy",
-        Model: "Cobalt",
-        Miles: "160,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3291",
-        Type: "cars",
-    }
-    let Infinity35_5538 = {
-        Year: "2009",
-        Make: "Infinity",
-        Model: "35",
-        Miles: "172,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "5538",
-        Type: "cars",
-    }
     let BuickLesabre_3320 = {
         Year: "1999",
         Make: "Buick",
@@ -79,16 +49,6 @@ export default function GetVehicle({category}) {
         Engine: "Automatic",
         ExtColor: "Silver",
         VIN: "3320",
-        Type: "cars",
-    }
-    let MercuryMilan_9445 = {
-        Year: "2006",
-        Make: "Mercury",
-        Model: "Milan",
-        Miles: "163,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "9445",
         Type: "cars",
     }
     let NissanQuest_0254 = {
@@ -141,16 +101,6 @@ export default function GetVehicle({category}) {
         VIN: "8692",
         Type: "cars",
     }
-    let DodgeJourney_5235 = {
-        Year: "2017",
-        Make: "Dodge",
-        Model: "Journey",
-        Miles: "134,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "5235",
-        Type: "suvs",
-    }
     let Ford500_6053 = {
         Year: "2005",
         Make: "Ford",
@@ -160,16 +110,6 @@ export default function GetVehicle({category}) {
         ExtColor: "Gray",
         VIN: "6053",
         Type: "cars",
-    }
-    let HondaOdyssey_2781 = {
-        Year: "2010",
-        Make: "Honda",
-        Model: "Odyssey",
-        Miles: "166,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "2781",
-        Type: "vans",
     }
     let ChevyAveo_9742 = {
         Year: "2009",
@@ -181,21 +121,141 @@ export default function GetVehicle({category}) {
         VIN: "9742",
         Type: "cars",
     }
-    let HyundaiAccent_0070 = {
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Accent",
-        Miles: "125,000",
-        Engine: "Automatic",
-        ExtColor: "Maroon",
-        VIN: "0070",
+
+let Mazda6_6880 = {
+        Year: "2003",
+        Make: "Mazda",
+        Model: "6",
+        Miles: "98,000",
+        Engine: "Manual",
+        ExtColor: "Silver",
+        VIN: "6880",
         Type: "cars",
     }
-
-    allvehiclearray.push(HyundaiAccent_0070, KiaSoul_6863, NissanQuest_0254,
-        ChevyTahoe_2591, ChevyAveo_9742, KiaSoul_7237, MercuryMilan_9445,
-        BuickLesabre_2498, ChevyCobalt_3291, HondaOdyssey_2781, Ford500_6053,
-        Infinity35_5538, BuickLesabre_3320, DodgeJourney_5235, DodgeAvenger_8692, ChevyImpala_2419, KiaSedona_5247, DodgeRam_2347,);
+let FordFocus_7807 = {
+        Year: "2008",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "134,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "7807",
+        Type: "cars",
+    }
+let KiaRio5_0249 = {
+        Year: "2010",
+        Make: "Kia",
+        Model: "Rio5",
+        Miles: "152,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "0249",
+        Type: "cars",
+    }
+let JeepWrangler_1794 = {
+        Year: "1997",
+        Make: "Jeep",
+        Model: "Wrangler",
+        Miles: "146,000",
+        Engine: "Manual",
+        ExtColor: "Red",
+        VIN: "1794",
+        Type: "suvs",
+    }
+let ChevyImpala_2126 = {
+        Year: "2012",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "182,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "2126",
+        Type: "cars",
+    }
+let ToyotaEcho_3236 = {
+        Year: "2005",
+        Make: "Toyota",
+        Model: "Echo",
+        Miles: "207,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "3236",
+        Type: "cars",
+    }
+let ToyotaSienna_0469 = {
+        Year: "2007",
+        Make: "Toyota",
+        Model: "Sienna",
+        Miles: "153,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "0469",
+        Type: "vans",
+    }
+let JeepLiberty_7407 = {
+        Year: "2010",
+        Make: "Jeep",
+        Model: "Liberty",
+        Miles: "146,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "7407",
+        Type: "suvs",
+    }
+let ChevyTrailblazer_7019 = {
+        Year: "2007",
+        Make: "Chevy",
+        Model: "Trailblazer",
+        Miles: "177,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "7019",
+        Type: "suvs",
+    }
+let JeepWrangler_6084 = {
+        Year: "1998",
+        Make: "Jeep",
+        Model: "Wrangler",
+        Miles: "201,000",
+        Engine: "Manual",
+        ExtColor: "Red",
+        VIN: "6084",
+        Type: "suvs",
+    }
+let JeepLiberty_4141 = {
+        Year: "2008",
+        Make: "Jeep",
+        Model: "Liberty",
+        Miles: "164,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4141",
+        Type: "suvs",
+    }
+let FordFlex_9803 = {
+        Year: "2010",
+        Make: "Ford",
+        Model: "Flex",
+        Miles: "180,000",
+        Engine: "Automatice",
+        ExtColor: "Maroon",
+        VIN: "9803",
+        Type: "suvs",
+    }
+let ShadowCruiser_7127 = {
+        Year: "2013",
+        Make: "Shadow",
+        Model: "Cruiser",
+        Miles: "None",
+        Engine: "None",
+        ExtColor: "White",
+        VIN: "7127",
+        Type: "vans",
+    }
+    allvehiclearray.push(FordFlex_9803, JeepLiberty_4141, JeepWrangler_6084, ChevyTrailblazer_7019, JeepLiberty_7407, ToyotaSienna_0469, 
+        ToyotaEcho_3236, ChevyImpala_2126, JeepWrangler_1794, KiaRio5_0249, FordFocus_7807, Mazda6_6880,
+        ChevyAveo_9742, Ford500_6053, DodgeAvenger_8692, KiaSedona_5247, ChevyImpala_2419, DodgeRam_2347, NissanQuest_0254, BuickLesabre_3320,
+        BuickLesabre_2498, KiaSoul_7237, KiaSoul_6863,ShadowCruiser_7127, );
 
 
     
