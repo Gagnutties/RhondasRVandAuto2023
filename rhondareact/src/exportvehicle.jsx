@@ -253,8 +253,8 @@ let ShadowCruiser_7127 = {
         Type: "vans",
     }
     allvehiclearray.push(FordFlex_9803, JeepLiberty_4141, JeepWrangler_6084, ChevyTrailblazer_7019, JeepLiberty_7407, ToyotaSienna_0469, 
-        ToyotaEcho_3236, ChevyImpala_2126, JeepWrangler_1794, KiaRio5_0249,
-        ChevyAveo_9742, DodgeAvenger_8692, KiaSedona_5247, DodgeRam_2347, NissanQuest_0254, BuickLesabre_3320,
+        ToyotaEcho_3236, ChevyImpala_2126,
+        ChevyAveo_9742, DodgeAvenger_8692, KiaSedona_5247, DodgeRam_2347, BuickLesabre_3320,
         BuickLesabre_2498, KiaSoul_7237, KiaSoul_6863,ShadowCruiser_7127, );
 
 
