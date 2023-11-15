@@ -61,26 +61,6 @@ let ChryslerSebring_4762 = {
         VIN: "4762",
         Type: "cars",
     }
-let FordFocus_3792 = {
-        Year: "2015",
-        Make: "Ford",
-        Model: "Focus",
-        Miles: "102,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3792",
-        Type: "cars",
-    }
-let FordFocus_8231 = {
-        Year: "2012",
-        Make: "Ford",
-        Model: "Focus",
-        Miles: "147,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "8231",
-        Type: "cars",
-    }
 let KiaSpectra_7779 = {
         Year: "2008",
         Make: "Kia",
@@ -101,16 +81,6 @@ let KiaSoul_7237 = {
         VIN: "7237",
         Type: "suvs",
     }
-let GMCSierra_8121 = {
-        Year: "2000",
-        Make: "GMC",
-        Model: "Sierra",
-        Miles: "194,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "8121",
-        Type: "trucks",
-    }
 let JeepLiberty_7407 = {
         Year: "2010",
         Make: "Jeep",
@@ -119,16 +89,6 @@ let JeepLiberty_7407 = {
         Engine: "Automatic",
         ExtColor: "Silver",
         VIN: "7407",
-        Type: "suvs",
-    }
-let FordFlex_9803 = {
-        Year: "2010",
-        Make: "Ford",
-        Model: "Flex",
-        Miles: "180,000",
-        Engine: "Automatic",
-        ExtColor: "Maroon",
-        VIN: "9803",
         Type: "suvs",
     }
 let ToyotaSienna_0469 = {
@@ -141,16 +101,6 @@ let ToyotaSienna_0469 = {
         VIN: "0469",
         Type: "vans",
     }
-let JeepLiberty_4141 = {
-        Year: "2008",
-        Make: "Jeep",
-        Model: "Liberty",
-        Miles: "164,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "4141",
-        Type: "suvs",
-    }
 let DodgeCaravan_2267 = {
         Year: "2003",
         Make: "Dodge",
@@ -160,16 +110,6 @@ let DodgeCaravan_2267 = {
         ExtColor: "Gray",
         VIN: "2267",
         Type: "vans",
-    }
-let ChryslerSebring_2498 = {
-        Year: "2010",
-        Make: "Chrysler",
-        Model: "Sebring",
-        Miles: "90,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "2498",
-        Type: "cars",
     }
 let ChryslerTC_3183 = {
         Year: "2008",
@@ -211,16 +151,6 @@ let FordCrownVic_1019 = {
         VIN: "1019",
         Type: "cars",
     }
-let FordF150_4045 = {
-        Year: "2004",
-        Make: "Ford",
-        Model: "F150",
-        Miles: "145,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "4045",
-        Type: "trucks",
-    }
 let HondaAccord_2915 = {
         Year: "2003",
         Make: "Honda",
@@ -232,9 +162,52 @@ let HondaAccord_2915 = {
         Type: "cars",
     }
 
-    allvehiclearray.push(ChevySonic_0285, PontiacG6_0008, ToyotaAvalon_2684, Audi_2843, ChryslerSebring_4762, FordFocus_3792, FordFocus_8231, 
-        KiaSpectra_7779, KiaSoul_7237, GMCSierra_8121, JeepLiberty_7407, FordFlex_9803, ToyotaSienna_0469, JeepLiberty_4141, DodgeCaravan_2267, 
-        ChryslerSebring_2498, ChryslerTC_3183, ChevyHHR_1677, InfinityG35_8171, FordCrownVic_1019, FordF150_4045, HondaAccord_2915,);
+let JeepLiberty_4141 = {
+        Year: "2008",
+        Make: "Jeep",
+        Model: "Liberty",
+        Miles: "164,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4141",
+        Type: "suvs",
+    }
+let KiaSorento_3081 = {
+        Year: "2008",
+        Make: "Kia",
+        Model: "Sorento",
+        Miles: "130,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3081",
+        Type: "suvs",
+    }
+let FordF150_2651 = {
+        Year: "1996",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "221,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "2651",
+        Type: "trucks",
+    }
+let DodgeRam2500_5888 = {
+        Year: "2007",
+        Make: "Dodge",
+        Model: "Ram2500",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "5888",
+        Type: "trucks",
+    }
+
+
+    allvehiclearray.push(ChevySonic_0285, PontiacG6_0008, ToyotaAvalon_2684, Audi_2843, ChryslerSebring_4762,
+        KiaSpectra_7779, KiaSoul_7237, JeepLiberty_7407, ToyotaSienna_0469, DodgeCaravan_2267, 
+        ChryslerTC_3183, ChevyHHR_1677, InfinityG35_8171, FordCrownVic_1019, HondaAccord_2915,
+        DodgeRam2500_5888, FordF150_2651, KiaSorento_3081, JeepLiberty_4141);
 
 
     
