@@ -25,7 +25,7 @@ export default function Vehicles() {
 
 
 
-            <h2>Vehicles</h2>
+            <h2>Vehicles (Updated Daily)</h2>
             <GetVehicle category={vehicle_cat}/>
         </div>
     );
