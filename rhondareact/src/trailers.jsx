@@ -1,7 +1,7 @@
 export default function Trailers() {
     return (
         <div class="section" id="trailer_section">
-            <h2>Trailers</h2>
+            <h2>Trailers/Campers</h2>
             <div id="trailer_list">
                 <TrailerNode 
                 Title="New Manufactured Home 28x48" 
@@ -17,6 +17,18 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$69,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
+                <CamperNode 
+                Title="2013 ShadowCruiser Camper"
+                Year="2013"
+                FT="28"
+                ImageName="./assets/ShadowCruiser.jpg"
+                />
+                <CamperNode 
+                Title="2005 Fleetwood America Popup"
+                Year="2005"
+                FT="POPUP"
+                ImageName="./assets/Popup.jpg"
+                />
             </div>
         </div>
     );
@@ -56,3 +68,23 @@ function TrailerNode({Title, SQFT, Bedrooms, Bathrooms, Price, ImageName}) {
         </div>
     );
 }
+function CamperNode({Title, Year, FT, ImageName}) {
+    return (
+        <div class="trailernode">
+            <h3 id="panelheader">{Title}</h3>
+            <img class="image_placeholder" src={ImageName}></img>
+            <table>
+                <tbody>
+                    <tr>
+                    <td>Year</td>
+                    <td>{Year}</td>
+                    </tr>
+                    <tr>
+                    <td>Feet</td>
+                    <td>{FT}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    );
+ }
