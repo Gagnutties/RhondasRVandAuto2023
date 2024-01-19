@@ -21,36 +21,6 @@ let ChevySonic_0285 = {
         VIN: "0285",
         Type: "cars",
     }
-let PontiacG6_0008 = {
-        Year: "2016",
-        Make: "Pontiac",
-        Model: "G6",
-        Miles: "162,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0008",
-        Type: "cars",
-    }
-let ToyotaAvalon_2684 = {
-        Year: "2008",
-        Make: "Toyota",
-        Model: "Avalon",
-        Miles: "Unknown",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "2684",
-        Type: "cars",
-    }
-let Audi_2843 = {
-        Year: "2005",
-        Make: "Audi",
-        Model: "",
-        Miles: "104,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "2843",
-        Type: "cars",
-    }
 let ChryslerSebring_4762 = {
         Year: "2006",
         Make: "Chrysler",
@@ -59,16 +29,6 @@ let ChryslerSebring_4762 = {
         Engine: "Automatic",
         ExtColor: "Gray",
         VIN: "4762",
-        Type: "cars",
-    }
-let KiaSpectra_7779 = {
-        Year: "2008",
-        Make: "Kia",
-        Model: "Spectra",
-        Miles: "163,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "7779",
         Type: "cars",
     }
 let KiaSoul_7237 = {
@@ -101,56 +61,6 @@ let ToyotaSienna_0469 = {
         VIN: "0469",
         Type: "vans",
     }
-let DodgeCaravan_2267 = {
-        Year: "2003",
-        Make: "Dodge",
-        Model: "Caravan",
-        Miles: "121,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "2267",
-        Type: "vans",
-    }
-let ChryslerTC_3183 = {
-        Year: "2008",
-        Make: "Chrysler",
-        Model: "TC",
-        Miles: "137,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3183",
-        Type: "vans",
-    }
-let ChevyHHR_1677 = {
-        Year: "2008",
-        Make: "Chevy",
-        Model: "HHR",
-        Miles: "151,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "1677",
-        Type: "suvs",
-    }
-let InfinityG35_8171 = {
-        Year: "2006",
-        Make: "Infinity",
-        Model: "G35",
-        Miles: "161,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "8171",
-        Type: "cars",
-    }
-let FordCrownVic_1019 = {
-        Year: "1999",
-        Make: "Ford",
-        Model: "CrownVic",
-        Miles: "111,000",
-        Engine: "Automatic",
-        ExtColor: "Tan",
-        VIN: "1019",
-        Type: "cars",
-    }
 let HondaAccord_2915 = {
         Year: "2003",
         Make: "Honda",
@@ -162,52 +72,50 @@ let HondaAccord_2915 = {
         Type: "cars",
     }
 
-let JeepLiberty_4141 = {
+let Mazda3_0000 = {
         Year: "2008",
-        Make: "Jeep",
-        Model: "Liberty",
-        Miles: "164,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "4141",
-        Type: "suvs",
-    }
-let KiaSorento_3081 = {
-        Year: "2008",
-        Make: "Kia",
-        Model: "Sorento",
-        Miles: "130,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3081",
-        Type: "suvs",
-    }
-let FordF150_2651 = {
-        Year: "1996",
-        Make: "Ford",
-        Model: "F150",
-        Miles: "221,000",
-        Engine: "Automatic",
-        ExtColor: "Green",
-        VIN: "2651",
-        Type: "trucks",
-    }
-let DodgeRam2500_5888 = {
-        Year: "2007",
-        Make: "Dodge",
-        Model: "Ram2500",
-        Miles: "Unknown",
+        Make: "Mazda",
+        Model: "3",
+        Miles: "142,000",
         Engine: "Automatic",
         ExtColor: "Gray",
-        VIN: "5888",
+        VIN: "0000",
+        Type: "cars",
+    }
+let ChevyMalibu_0000 = {
+        Year: "2008",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "101,000",
+        Engine: "Automatic",
+        ExtColor: "Maroon",
+        VIN: "0000",
+        Type: "cars",
+    }
+let KiaForte_0000 = {
+        Year: "2010",
+        Make: "Kia",
+        Model: "Forte",
+        Miles: "127,000",
+        Engine: "Automatic",
+        ExtColor: "Purple",
+        VIN: "0000",
+        Type: "cars",
+    }
+let DodgeRam_0000 = {
+        Year: "2005",
+        Make: "Dodge",
+        Model: "Ram",
+        Miles: "112,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0000",
         Type: "trucks",
     }
 
-
-    allvehiclearray.push(ChevySonic_0285, PontiacG6_0008, ToyotaAvalon_2684, Audi_2843, ChryslerSebring_4762,
-        KiaSpectra_7779, KiaSoul_7237, JeepLiberty_7407, ToyotaSienna_0469, DodgeCaravan_2267, 
-        ChryslerTC_3183, ChevyHHR_1677, InfinityG35_8171, FordCrownVic_1019, HondaAccord_2915,
-        DodgeRam2500_5888, FordF150_2651, KiaSorento_3081, JeepLiberty_4141);
+    allvehiclearray.push(ChevySonic_0285,ChryslerSebring_4762,KiaSoul_7237,
+        JeepLiberty_7407,ToyotaSienna_0469,HondaAccord_2915,Mazda3_0000,
+        ChevyMalibu_0000,KiaForte_0000,DodgeRam_0000);
 
 
     
