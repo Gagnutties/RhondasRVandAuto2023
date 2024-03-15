@@ -113,9 +113,187 @@ let DodgeRam_0000 = {
         Type: "trucks",
     }
 
+
+
+let KiaRio_0654 = {
+        Year: "2009",
+        Make: "Kia",
+        Model: "Rio",
+        Miles: "103,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0654",
+        Type: "cars",
+    }
+let LincolnTownCar_2099 = {
+        Year: "2002",
+        Make: "Lincoln",
+        Model: "TownCar",
+        Miles: "59,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "2099",
+        Type: "cars",
+    }
+let HyundaiSantaFe_7738 = {
+        Year: "2007",
+        Make: "Hyundai",
+        Model: "SantaFe",
+        Miles: "164,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "7738",
+        Type: "suvs",
+    }
+let ChevyVan_0000 = {
+        Year: "2008",
+        Make: "Chevy",
+        Model: "Van",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0000",
+        Type: "vans",
+    }
+let BuickLesabre_0000 = {
+        Year: "2009",
+        Make: "Buick",
+        Model: "LeSabre",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "0000",
+        Type: "cars",
+    }
+let ChevyHHR_9551 = {
+        Year: "2007",
+        Make: "Chevy",
+        Model: "HHR",
+        Miles: "112,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "9551",
+        Type: "suvs",
+    }
+let FordFreestar_5786 = {
+        Year: "2004",
+        Make: "Ford",
+        Model: "Freestar",
+        Miles: "162,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "5786",
+        Type: "vans",
+    }
+let MitsubishiEclipse_6167 = {
+        Year: "2007",
+        Make: "Mitsubishi",
+        Model: "Eclipse",
+        Miles: "143,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "6167",
+        Type: "cars",
+    }
+let HyundaiElantra_7179 = {
+        Year: "2007",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "188,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "7179",
+        Type: "cars",
+    }
+let FordFiesta_2502 = {
+        Year: "2011",
+        Make: "Ford",
+        Model: "Fiesta",
+        Miles: "120,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "2502",
+        Type: "cars",
+    }
+let FordTaurus_5875 = {
+        Year: "2013",
+        Make: "Ford",
+        Model: "Taurus",
+        Miles: "163,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "5875",
+        Type: "cars",
+    }
+let KiaSorento_2784 = {
+        Year: "2012",
+        Make: "Kia",
+        Model: "Sorento",
+        Miles: "177,000",
+        Engine: "Automatic",
+        ExtColor: "Purple",
+        VIN: "2784",
+        Type: "suvs",
+    }
+let JeepWrangler_3691 = {
+        Year: "2004",
+        Make: "Jeep",
+        Model: "Wrangler",
+        Miles: "147,000",
+        Engine: "Automatic",
+        ExtColor: "Gold",
+        VIN: "3691",
+        Type: "suvs",
+    }
+let JeepPatriot_1145 = {
+        Year: "2012",
+        Make: "Jeep",
+        Model: "Patriot",
+        Miles: "137,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "1145",
+        Type: "suvs",
+    }
+let ChevyCobalt_4189 = {
+        Year: "2006",
+        Make: "Chevy",
+        Model: "Cobalt",
+        Miles: "151,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "4189",
+        Type: "cars",
+    }
+let FordEdge_3021 = {
+        Year: "2007",
+        Make: "Ford",
+        Model: "Edge",
+        Miles: "Exempt",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "3021",
+        Type: "vans",
+    }
+let FordFocus_5929 = {
+        Year: "2011",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "88,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "5929",
+        Type: "cars",
+    }
+
+
+
     allvehiclearray.push(ChevySonic_0285,ChryslerSebring_4762,KiaSoul_7237,
         JeepLiberty_7407,ToyotaSienna_0469,HondaAccord_2915,Mazda3_0000,
-        ChevyMalibu_0000,KiaForte_0000,DodgeRam_0000);
+        ChevyMalibu_0000,KiaForte_0000,DodgeRam_0000, FordFocus_5929, FordEdge_3021,
+        FordTaurus_5875,KiaSorento_2784,JeepWrangler_3691,JeepPatriot_1145,ChevyCobalt_4189,
+        FordFiesta_2502,HyundaiElantra_7179,MitsubishiEclipse_6167,FordFreestar_5786,ChevyHHR_9551,
+        BuickLesabre_0000,KiaRio_0654,LincolnTownCar_2099,HyundaiSantaFe_7738,ChevyVan_0000);
 
 
     
