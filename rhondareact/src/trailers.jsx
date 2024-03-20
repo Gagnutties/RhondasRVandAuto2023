@@ -23,8 +23,10 @@ export default function Trailers() {
                 FT="POPUP"
                 ImageName="./assets/Popup.jpg"
                 />
-                <BarnNode
-                Title="Call us about our barns!"
+                <CamperNode
+                Title="Call us about our Beckden buildings!"
+                Year="2024"
+                FT="Variable"
                 ImageName="./assets/barns.jpg"
                 />
             </div>
@@ -86,19 +88,3 @@ function CamperNode({Title, Year, FT, ImageName}) {
         </div>
     );
  }
-function BarnNode(Title, ImageName) {
-    return (
-        <div class="trailernode">
-            <h3 id="panelheader">{Title}</h3>
-            <img class="image_placeholder" src={ImageName}></img>
-            <table>
-                <tbody>
-                    <tr>
-                    <td>Call:</td>
-                    <td>812-794-2222</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    );
-}
