@@ -18,16 +18,14 @@ export default function Trailers() {
                 Price="$69,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
                 <CamperNode 
-                Title="2013 ShadowCruiser Camper"
-                Year="2013"
-                FT="28"
-                ImageName="./assets/ShadowCruiser.jpg"
-                />
-                <CamperNode 
                 Title="2005 Fleetwood America Popup"
                 Year="2005"
                 FT="POPUP"
                 ImageName="./assets/Popup.jpg"
+                />
+                <BarnNode
+                Title="Call us about our barns!"
+                ImageName="./assets/barns.jpg"
                 />
             </div>
         </div>
@@ -88,3 +86,19 @@ function CamperNode({Title, Year, FT, ImageName}) {
         </div>
     );
  }
+function BarnNode(Title, ImageName) {
+    return (
+        <div class="trailernode">
+            <h3 id="panelheader">{Title}</h3>
+            <img class="image_placeholder" src={ImageName}></img>
+            <table>
+                <tbody>
+                    <tr>
+                    <td>Call:</td>
+                    <td>812-794-2222</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    );
+}

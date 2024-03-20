@@ -288,12 +288,10 @@ let FordFocus_5929 = {
 
 
 
-    allvehiclearray.push(ChevySonic_0285,ChryslerSebring_4762,KiaSoul_7237,
-        JeepLiberty_7407,ToyotaSienna_0469,HondaAccord_2915,Mazda3_0000,
-        ChevyMalibu_0000,KiaForte_0000,DodgeRam_0000, FordFocus_5929, FordEdge_3021,
-        FordTaurus_5875,KiaSorento_2784,JeepWrangler_3691,JeepPatriot_1145,ChevyCobalt_4189,
-        FordFiesta_2502,HyundaiElantra_7179,MitsubishiEclipse_6167,FordFreestar_5786,ChevyHHR_9551,
-        BuickLesabre_0000,KiaRio_0654,LincolnTownCar_2099,HyundaiSantaFe_7738,ChevyVan_0000);
+    allvehiclearray.push(ChevySonic_0285,ChryslerSebring_4762,HondaAccord_2915,DodgeRam_0000, FordFocus_5929, FordEdge_3021,
+        FordTaurus_5875,KiaSorento_2784,JeepWrangler_3691,ChevyCobalt_4189,
+        FordFiesta_2502,HyundaiElantra_7179,MitsubishiEclipse_6167,ChevyHHR_9551
+        ,KiaRio_0654,LincolnTownCar_2099,HyundaiSantaFe_7738,ChevyVan_0000);
 
 
     
