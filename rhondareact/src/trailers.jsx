@@ -60,9 +60,6 @@ function TrailerNode({Title, SQFT, Bedrooms, Bathrooms, Price, ImageName}) {
                 <tr>
                 <td>Delivered to Property</td>
                 </tr>
-                <tr>
-                <td>Utility With Hookup</td>
-                </tr>
                 </tbody>
             </table>
         </div>

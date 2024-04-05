@@ -115,10 +115,10 @@ let DodgeRam_0000 = {
 
 
 
-let KiaRio_0654 = {
+let KiaSpectra_0654 = {
         Year: "2009",
         Make: "Kia",
-        Model: "Rio",
+        Model: "Spectra",
         Miles: "103,000",
         Engine: "Automatic",
         ExtColor: "Red",
@@ -185,16 +185,6 @@ let FordFreestar_5786 = {
         VIN: "5786",
         Type: "vans",
     }
-let MitsubishiEclipse_6167 = {
-        Year: "2007",
-        Make: "Mitsubishi",
-        Model: "Eclipse",
-        Miles: "143,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "6167",
-        Type: "cars",
-    }
 let HyundaiElantra_7179 = {
         Year: "2007",
         Make: "Hyundai",
@@ -215,66 +205,6 @@ let FordFiesta_2502 = {
         VIN: "2502",
         Type: "cars",
     }
-let FordTaurus_5875 = {
-        Year: "2013",
-        Make: "Ford",
-        Model: "Taurus",
-        Miles: "163,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "5875",
-        Type: "cars",
-    }
-let KiaSorento_2784 = {
-        Year: "2012",
-        Make: "Kia",
-        Model: "Sorento",
-        Miles: "177,000",
-        Engine: "Automatic",
-        ExtColor: "Purple",
-        VIN: "2784",
-        Type: "suvs",
-    }
-let JeepWrangler_3691 = {
-        Year: "2004",
-        Make: "Jeep",
-        Model: "Wrangler",
-        Miles: "147,000",
-        Engine: "Automatic",
-        ExtColor: "Gold",
-        VIN: "3691",
-        Type: "suvs",
-    }
-let JeepPatriot_1145 = {
-        Year: "2012",
-        Make: "Jeep",
-        Model: "Patriot",
-        Miles: "137,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "1145",
-        Type: "suvs",
-    }
-let ChevyCobalt_4189 = {
-        Year: "2006",
-        Make: "Chevy",
-        Model: "Cobalt",
-        Miles: "151,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "4189",
-        Type: "cars",
-    }
-let FordEdge_3021 = {
-        Year: "2007",
-        Make: "Ford",
-        Model: "Edge",
-        Miles: "Exempt",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "3021",
-        Type: "vans",
-    }
 let FordFocus_5929 = {
         Year: "2011",
         Make: "Ford",
@@ -288,10 +218,9 @@ let FordFocus_5929 = {
 
 
 
-    allvehiclearray.push(ChevySonic_0285,ChryslerSebring_4762,HondaAccord_2915,DodgeRam_0000, FordFocus_5929, FordEdge_3021,
-        FordTaurus_5875,KiaSorento_2784,JeepWrangler_3691,ChevyCobalt_4189,
-        FordFiesta_2502,HyundaiElantra_7179,MitsubishiEclipse_6167,ChevyHHR_9551
-        ,KiaRio_0654,LincolnTownCar_2099,HyundaiSantaFe_7738,ChevyVan_0000);
+    allvehiclearray.push(ChryslerSebring_4762,HondaAccord_2915,DodgeRam_0000, FordFocus_5929,
+        FordFiesta_2502,HyundaiElantra_7179,ChevyHHR_9551
+        ,KiaSpectra_0654,LincolnTownCar_2099);
 
 
     
