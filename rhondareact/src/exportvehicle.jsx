@@ -401,8 +401,8 @@ let ToyotaCamry_9058 = {
     allvehiclearray.push(HondaAccord_2915,
         FordFiesta_2502, HyundaiGenesis_9388
         ,LincolnTownCar_2099, ToyotaCamry_9058, ToyotaCorolla_0720, HyundaiTuscon_5684,DodgeCaravan_0952,
-        ToyotaCamry_1974,FordFocus_9560,ToyotaSienna_3806,Chrysler200_0209,FordFocus_8856, SaturnVue_0993
-        ,DodgeRam_5855,KiaSportage_9744,KiaSoul_1957,MiniCooper_7140,KiaForte_4629,DodgeCharger_4323,HyundaiElantra_4508,);
+        ToyotaCamry_1974,FordFocus_9560,ToyotaSienna_3806,Chrysler200_0209, SaturnVue_0993
+        ,DodgeRam_5855,KiaSportage_9744,KiaSoul_1957,MiniCooper_7140,);
 
 
     
