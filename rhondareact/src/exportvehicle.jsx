@@ -217,10 +217,192 @@ let FordFocus_5929 = {
     }
 
 
+let DodgeRam_5855 = {
+        Year: "2005",
+        Make: "Dodge",
+        Model: "Ram",
+        Miles: "112,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "5855",
+        Type: "trucks",
+    }
+let KiaSportage_9744 = {
+        Year: "2012",
+        Make: "Kia",
+        Model: "Sportage",
+        Miles: "141,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "9744",
+        Type: "suvs",
+    }
+let KiaSoul_1957 = {
+        Year: "2011",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "88,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "1957",
+        Type: "cars",
+    }
+let MiniCooper_7140 = {
+        Year: "2010",
+        Make: "Mini",
+        Model: "Cooper",
+        Miles: "122,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "7140",
+        Type: "cars",
+    }
+let KiaForte_4629 = {
+        Year: "2015",
+        Make: "Kia",
+        Model: "Forte",
+        Miles: "131,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "4629",
+        Type: "cars",
+    }
+let DodgeCharger_4323 = {
+        Year: "2012",
+        Make: "Dodge",
+        Model: "Charger",
+        Miles: "162,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4323",
+        Type: "cars",
+    }
+let HyundaiElantra_4508 = {
+        Year: "2014",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4508",
+        Type: "cars",
+    }
+let HyundaiGenesis_9388 = {
+        Year: "2009",
+        Make: "Hyundai",
+        Model: "Genesis",
+        Miles: "146,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "9388",
+        Type: "cars",
+    }
+let SaturnVue_0993 = {
+        Year: "2008",
+        Make: "Saturn",
+        Model: "Vue",
+        Miles: "162,000",
+        Engine: "Automatic",
+        ExtColor: "Orange",
+        VIN: "0993",
+        Type: "suvs",
+    }
+let FordFocus_8856 = {
+        Year: "2013",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "117,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "8856",
+        Type: "cars",
+    }
+let Chrysler200_0209 = {
+        Year: "2011",
+        Make: "Chrysler",
+        Model: "200",
+        Miles: "148,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0209",
+        Type: "cars",
+    }
+let FordFocus_9560 = {
+        Year: "2009",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "89,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "9560",
+        Type: "cars",
+    }
+let ToyotaSienna_3806 = {
+        Year: "2006",
+        Make: "Toyota",
+        Model: "Sienna",
+        Miles: "211,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3806",
+        Type: "vans",
+    }
+let ToyotaCamry_1974 = {
+        Year: "2007",
+        Make: "Toyota",
+        Model: "Camry",
+        Miles: "209,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "1974",
+        Type: "cars",
+    }
+let HyundaiTuscon_5684 = {
+        Year: "2006",
+        Make: "Hyundai",
+        Model: "Tuscon",
+        Miles: "135,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "5684",
+        Type: "suvs",
+    }
+let DodgeCaravan_0952 = {
+        Year: "2012",
+        Make: "Dodge",
+        Model: "Caravan",
+        Miles: "141,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0952",
+        Type: "vans",
+    }
+let ToyotaCorolla_0720 = {
+        Year: "2009",
+        Make: "Toyota",
+        Model: "Corolla",
+        Miles: "207,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "0720",
+        Type: "cars",
+    }
+let ToyotaCamry_9058 = {
+        Year: "2007",
+        Make: "Toyota",
+        Model: "Camry",
+        Miles: "191,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "9058",
+        Type: "cars",
+    }
 
-    allvehiclearray.push(ChryslerSebring_4762,HondaAccord_2915,DodgeRam_0000, FordFocus_5929,
-        FordFiesta_2502,HyundaiElantra_7179,ChevyHHR_9551
-        ,KiaSpectra_0654,LincolnTownCar_2099);
+    allvehiclearray.push(HondaAccord_2915,
+        FordFiesta_2502, HyundaiGenesis_9388
+        ,LincolnTownCar_2099, ToyotaCamry_9058, ToyotaCorolla_0720, HyundaiTuscon_5684,DodgeCaravan_0952,
+        ToyotaCamry_1974,FordFocus_9560,ToyotaSienna_3806,Chrysler200_0209,FordFocus_8856, SaturnVue_0993
+        ,DodgeRam_5855,KiaSportage_9744,KiaSoul_1957,MiniCooper_7140,KiaForte_4629,DodgeCharger_4323,HyundaiElantra_4508,);
 
 
     
