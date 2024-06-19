@@ -8,14 +8,14 @@ export default function Trailers() {
                 SQFT="1264" 
                 Bedrooms="3" 
                 Bathrooms="2" 
-                Price="$59,900+Sales Tax"
+                Price="$64,900+Sales Tax"
                 ImageName="./assets/NMH28x48.jpg"/>
                 <TrailerNode 
                 Title="New Manufactured Home 28x56" 
                 SQFT="1475" 
                 Bedrooms="4" 
                 Bathrooms="2" 
-                Price="$69,900+Sales Tax"
+                Price="$74,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
                 <CamperNode 
                 Title="2005 Fleetwood America Popup"
