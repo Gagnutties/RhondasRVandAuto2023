@@ -18,16 +18,16 @@ export default function Trailers() {
                 Price="$74,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
                 <CamperNode 
-                Title="2005 Fleetwood America Popup"
-                Year="2005"
-                FT="POPUP"
-                ImageName="./assets/Popup.jpg"
+                Title="2016 Gray Wolf 26RL"
+                Year="2016"
+                FT="26ft"
+                ImageName="./assets/GrayWolf.jpg"
                 />
-                <CamperNode
-                Title="Call us about our Beckden buildings!"
-                Year="2024"
-                FT="Variable"
-                ImageName="./assets/barns.jpg"
+                <CamperNode 
+                Title="2014 Cruiser VI 30QBIK"
+                Year="2014"
+                FT="30ft"
+                ImageName="./assets/Cruiser.jpg"
                 />
             </div>
         </div>
