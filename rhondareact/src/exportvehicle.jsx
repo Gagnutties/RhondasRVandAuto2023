@@ -53,12 +53,12 @@ let MiniCooper_7140 = {
         Type: "cars",
     }
 let HyundaiGenesis_9388 = {
-        Year: "2009",
+        Year: "2014",
         Make: "Hyundai",
-        Model: "Genesis",
+        Model: "Elantra",
         Miles: "146,000",
         Engine: "Automatic",
-        ExtColor: "Blue",
+        ExtColor: "Black",
         VIN: "9388",
         Type: "cars",
     }
@@ -134,12 +134,12 @@ let ScionXBox_0000 = {
         Type: "cars",
     }
 let HyundaiSonata_0000 = {
-        Year: "2014",
+        Year: "2009",
         Make: "Hyundai",
         Model: "Sonata",
         Miles: "158,000",
         Engine: "Automatic",
-        ExtColor: "Tan",
+        ExtColor: "Green",
         VIN: "0000",
         Type: "cars",
     }
@@ -164,7 +164,26 @@ let HyundaiSantaFe_0000 = {
         Type: "suvs",
     }
 
-
+let ChevyMailbu_3772 = {
+        Year: "2010",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "145,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "3772",
+        Type: "cars",
+    }
+let ChevyImpala_1560 = {
+        Year: "2010",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "174,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "1560",
+        Type: "cars",
+    }
 
 
 
@@ -173,7 +192,8 @@ let HyundaiSantaFe_0000 = {
                         ,HyundaiGenesis_9388, HyundaiSantaFe_0000, HondaCivic_0000
                         ,HyundaiSonata_0000, LincolnTownCar_2099, ToyotaCamry_9058
                         ,ToyotaCorolla_0720, ToyotaCamry_1974, FordFocus_9560
-                        ,ToyotaSienna_3806, SaturnVue_0993, KiaSoul_1957, MiniCooper_7140,);
+                        ,ToyotaSienna_3806, SaturnVue_0993, KiaSoul_1957, MiniCooper_7140
+                        ,ChevyImpala_1560, ChevyMailbu_3772);
 
 
     
