@@ -169,11 +169,11 @@ let ChevyMailbu_3772 = {
 
 
     allvehiclearray.push(HondaAccord_2915, ScionXBox_0000
-                        ,HyundaiGenesis_9388, HyundaiSantaFe_0000, HondaCivic_0000
+                        ,HyundaiGenesis_9388, HyundaiSantaFe_0000
                         ,HyundaiSonata_0000, LincolnTownCar_2099, ToyotaCamry_9058
                         ,ToyotaCorolla_0720, ToyotaCamry_1974, FordFocus_9560
                         ,ToyotaSienna_3806, SaturnVue_0993, KiaSoul_1957, MiniCooper_7140
-                        ,ChevyImpala_1560, ChevyMailbu_3772);
+                        , ChevyMailbu_3772);
 
 
     
