@@ -143,16 +143,6 @@ let HyundaiSonata_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let HondaCivic_0000 = {
-        Year: "2003",
-        Make: "Honda",
-        Model: "Civic",
-        Miles: "187,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "cars",
-    }
 let HyundaiSantaFe_0000 = {
         Year: "2007",
         Make: "Hyundai",
@@ -172,16 +162,6 @@ let ChevyMailbu_3772 = {
         Engine: "Automatic",
         ExtColor: "Black",
         VIN: "3772",
-        Type: "cars",
-    }
-let ChevyImpala_1560 = {
-        Year: "2010",
-        Make: "Chevy",
-        Model: "Impala",
-        Miles: "174,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "1560",
         Type: "cars",
     }
 
