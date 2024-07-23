@@ -165,10 +165,103 @@ let ChevyMailbu_3772 = {
         Type: "cars",
     }
 
+let FordFiesta_2502 = {
+        Year: "2011",
+        Make: "Ford",
+        Model: "Fiesta",
+        Miles: "130,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "2502",
+        Type: "cars",
+    }
+let FordEscape_5486 = {
+        Year: "2011",
+        Make: "Ford",
+        Model: "Escape",
+        Miles: "138,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "5486",
+        Type: "suvs",
+    }
+let FordFocus_0808 = {
+        Year: "2014",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "106,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0808",
+        Type: "cars",
+    }
+let ChevyImpala_4300 = {
+        Year: "2009",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "113,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "4300",
+        Type: "cars",
+    }
+let KiaSedona_7505 = {
+        Year: "2007",
+        Make: "Kia",
+        Model: "Sedona",
+        Miles: "165,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "7505",
+        Type: "vans",
+    }
+let HondaCivic_8477 = {
+        Year: "2010",
+        Make: "Honda",
+        Model: "Civic",
+        Miles: "147,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "8477",
+        Type: "cars",
+    }
+let DodgeRam_6820 = {
+        Year: "2006",
+        Make: "Dodge",
+        Model: "Ram",
+        Miles: "192,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "6820",
+        Type: "trucks",
+    }
+let FordF150_5255 = {
+        Year: "2006",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "145,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "5255",
+        Type: "trucks",
+    }
+let HyundaiSonata_2394 = {
+        Year: "2009",
+        Make: "Hyundai",
+        Model: "Sonata",
+        Miles: "175,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "2394",
+        Type: "cars",
+    }
 
 
 
-    allvehiclearray.push(HondaAccord_2915, ScionXBox_0000
+    allvehiclearray.push(FordFiesta_2502,FordEscape_5486,FordFocus_0808
+                        ,ChevyImpala_4300,KiaSedona_7505,HondaCivic_8477,DodgeRam_6820
+                        ,FordF150_5255,HyundaiSonata_2394
+                        ,HondaAccord_2915, ScionXBox_0000
                         ,HyundaiGenesis_9388, HyundaiSantaFe_0000
                         ,HyundaiSonata_0000, LincolnTownCar_2099, ToyotaCamry_9058
                         ,ToyotaCorolla_0720, ToyotaCamry_1974, FordFocus_9560
