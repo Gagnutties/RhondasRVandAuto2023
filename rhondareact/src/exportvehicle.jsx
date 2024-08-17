@@ -256,15 +256,99 @@ let HyundaiSonata_2394 = {
         Type: "cars",
     }
 
+let HondaAccord_0201 = {
+        Year: "2008",
+        Make: "Honda",
+        Model: "Accord",
+        Miles: "153,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "0201",
+        Type: "cars",
+    }
+let GMCCanyon_2352 = {
+        Year: "2008",
+        Make: "GMC",
+        Model: "Canyon",
+        Miles: "161,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "2352",
+        Type: "trucks",
+    }
+let HyundaiAzera_2729 = {
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Azera",
+        Miles: "166,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "2729",
+        Type: "cars",
+    }
+let BuickVerano_1173 = {
+        Year: "2014",
+        Make: "Buick",
+        Model: "Verano",
+        Miles: "129,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "1173",
+        Type: "cars",
+    }
+let Mazda3_8461 = {
+        Year: "2009",
+        Make: "Mazda",
+        Model: "3",
+        Miles: "147,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "8461",
+        Type: "cars",
+    }
+let ChevyMailbu_5434 = {
+        Year: "2003",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "106,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "5434",
+        Type: "cars",
+    }
+let ChevyEquinox_1867 = {
+        Year: "2013",
+        Make: "Chevy",
+        Model: "Equinox",
+        Miles: "106,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "1867",
+        Type: "suvs",
+    }
+let VolkswagonCC_3467 = {
+        Year: "2012",
+        Make: "Volkswagon",
+        Model: "CC",
+        Miles: "113,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "3467",
+        Type: "cars",
+    }
 
 
-    allvehiclearray.push(FordFiesta_2502,FordEscape_5486,FordFocus_0808
+
+    allvehiclearray.push(VolkswagonCC_3467, ChevyEquinox_1867, ChevyMailbu_5434
+                        ,Mazda3_8461, BuickVerano_1173, HyundaiAztec_2729
+                        ,GMCCanyon_2352, HondaAccord_0201
+                        ,FordFiesta_2502,FordEscape_5486,FordFocus_0808
                         ,ChevyImpala_4300,KiaSedona_7505,HondaCivic_8477,DodgeRam_6820
                         ,FordF150_5255,HyundaiSonata_2394
                         ,HondaAccord_2915, ScionXBox_0000
                         ,HyundaiGenesis_9388, HyundaiSantaFe_0000
                         ,HyundaiSonata_0000, LincolnTownCar_2099, ToyotaCamry_9058
-                        ,ToyotaCorolla_0720, ToyotaCamry_1974, FordFocus_9560
+                        ,ToyotaCorolla_0720, ToyotaCamry_1974
                         ,ToyotaSienna_3806, KiaSoul_1957,);
 
 
