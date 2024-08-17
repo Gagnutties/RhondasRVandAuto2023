@@ -340,7 +340,7 @@ let VolkswagonCC_3467 = {
 
 
     allvehiclearray.push(VolkswagonCC_3467, ChevyEquinox_1867, ChevyMailbu_5434
-                        ,Mazda3_8461, BuickVerano_1173, HyundaiAztec_2729
+                        ,Mazda3_8461, BuickVerano_1173, HyundaiAzera_2729
                         ,GMCCanyon_2352, HondaAccord_0201
                         ,FordFiesta_2502,FordEscape_5486,FordFocus_0808
                         ,ChevyImpala_4300,KiaSedona_7505,HondaCivic_8477,DodgeRam_6820
