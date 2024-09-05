@@ -17,12 +17,6 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
-                <CamperNode 
-                Title="2014 Cruiser VI 30QBIK"
-                Year="2014"
-                FT="30ft"
-                ImageName="./assets/Cruiser.jpg"
-                />
             </div>
         </div>
     );
