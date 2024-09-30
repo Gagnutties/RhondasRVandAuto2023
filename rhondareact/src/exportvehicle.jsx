@@ -205,16 +205,6 @@ let KiaRio_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let ChryslerTC_0000 = {
-        Year: "2004",
-        Make: "Chrysler",
-        Model: "TC",
-        Miles: "101,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "vans",
-    }
 let DodgeGrandCaravan_0000 = {
         Year: "2002",
         Make: "Dodge",
@@ -351,7 +341,7 @@ let GMCTerrain_0000 = {
                         ,ChryslerTC_0001 ,ChryslerPTCruiser_0000 , ToyotaCamry_0000
                         ,HyundaiElantra_1939 ,GMCCanyon_0000 ,SaturnVue_0000 ,ChevyColorado_0000
                         ,HyundaiEntourage_0000 ,DodgeGrandCaravan_0000
-                        ,ChryslerTC_0000 ,KiaRio_0000 ,ChevyTraverse_0000,Mazda_0000
+                        ,KiaRio_0000 ,ChevyTraverse_0000,Mazda_0000
                         ,VolkswagonCC_3467, GMCTerrain_0000
                         ,Mazda3_8461, HyundaiAzera_2729
                         ,GMCCanyon_2352, HondaAccord_0201
