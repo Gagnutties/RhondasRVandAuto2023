@@ -82,16 +82,6 @@ let ChevyImpala_4300 = {
         VIN: "4300",
         Type: "cars",
     }
-let HondaCivic_8477 = {
-        Year: "2010",
-        Make: "Honda",
-        Model: "Civic",
-        Miles: "147,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "8477",
-        Type: "cars",
-    }
 let DodgeRam_6820 = {
         Year: "2006",
         Make: "Dodge",
@@ -346,12 +336,7 @@ let GMCTerrain_0000 = {
                         ,Mazda3_8461, HyundaiAzera_2729
                         ,GMCCanyon_2352, HondaAccord_0201
                         ,FordFiesta_2502
-                        ,ChevyImpala_4300,HondaCivic_8477,DodgeRam_6820
-                        ,HyundaiSonata_2394
-                        ,HondaAccord_2915
-                        ,HyundaiSonata_0000, LincolnTownCar_2099
-                        , ToyotaCamry_1974
-                        ,ToyotaSienna_3806,);
+                        , HyundaiSonata_0000, ToyotaCamry_1974,);
 
 
     
