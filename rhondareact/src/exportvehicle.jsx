@@ -327,15 +327,66 @@ let GMCTerrain_0000 = {
     }
 
 
-    allvehiclearray.push(DodgeDakota_0000, GMCSierra_0000, FordFusion_0000, FordEscape_0000
+let HyundaiElantra_0000 = {
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "119,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0000",
+        Type: "cars",
+    }
+
+let FordFocus_0000 = {
+        Year: "!!!!",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "248,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0000",
+        Type: "cars",
+    }
+let ChevySilverado_0000 = {
+        Year: "2003",
+        Make: "Chevy",
+        Model: "Silverado",
+        Miles: "217,000",
+        Engine: "Automatic",
+        ExtColor: "Maroon",
+        VIN: "0000",
+        Type: "trucks",
+    }
+let FordF150_0000 = {
+        Year: "2002",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "138,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "0000",
+        Type: "trucks",
+    }
+let FordF150_0001 = {
+        Year: "2007",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "150,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "0001",
+        Type: "trucks",
+    }
+    allvehiclearray.push(FordFocus_0000, ChevySilverado_0000, FordF150_0000, FordF150_0001
+                        ,DodgeDakota_0000, FordFusion_0000, FordEscape_0000
                         ,ChryslerTC_0001 ,ChryslerPTCruiser_0000 , ToyotaCamry_0000
-                        ,HyundaiElantra_1939 ,GMCCanyon_0000 ,SaturnVue_0000 ,ChevyColorado_0000
+                        ,HyundaiElantra_1939 ,SaturnVue_0000 ,ChevyColorado_0000
                         ,HyundaiEntourage_0000 ,DodgeGrandCaravan_0000
-                        ,KiaRio_0000 ,ChevyTraverse_0000,Mazda_0000
+                        ,KiaRio_0000,Mazda_0000,HyundaiElantra_0000
                         ,VolkswagonCC_3467, GMCTerrain_0000
                         ,Mazda3_8461, HyundaiAzera_2729
-                        ,GMCCanyon_2352, HondaAccord_0201
-                        ,FordFiesta_2502
+                        ,GMCCanyon_2352, HondaAccord_0201, FordFiesta_2502
                         , HyundaiSonata_0000, ToyotaCamry_1974,);
 
 
