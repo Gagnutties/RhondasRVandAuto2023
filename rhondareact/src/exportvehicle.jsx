@@ -339,7 +339,7 @@ let HyundaiElantra_0000 = {
     }
 
 let FordFocus_0000 = {
-        Year: "!!!!",
+        Year: "2011",
         Make: "Ford",
         Model: "Focus",
         Miles: "248,000",
