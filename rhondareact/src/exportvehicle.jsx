@@ -216,7 +216,7 @@ let HyundaiEntourage_0000 = {
         Type: "cars",
     }
 let ChevyColorado_0000 = {
-        Year: "2007",
+        Year: "2008",
         Make: "Chevy",
         Model: "Colorado",
         Miles: "157,000",
@@ -378,14 +378,11 @@ let FordF150_0001 = {
         VIN: "0001",
         Type: "trucks",
     }
-    allvehiclearray.push(FordFocus_0000, ChevySilverado_0000, FordF150_0000
-                        ,DodgeDakota_0000, FordFusion_0000, FordEscape_0000
-                        ,ChryslerTC_0001 ,ChryslerPTCruiser_0000 , ToyotaCamry_0000
-                        ,HyundaiElantra_1939 ,ChevyColorado_0000
-                        ,HyundaiEntourage_0000 ,DodgeGrandCaravan_0000
-                        ,KiaRio_0000,Mazda_0000,HyundaiElantra_0000
-                        ,GMCCanyon_2352, HondaAccord_0201, FordFiesta_2502
-                        , HyundaiSonata_0000, ToyotaCamry_1974,);
+    allvehiclearray.push(HondaAccord_2915, ToyotaCamry_1974, HyundaiSonata_0000, FordFiesta_2502 
+                        ,HondaAccord_0201, GMCCanyon_2352, HyundaiElantra_0000, DodgeDakota_0000 //HondaVan Missing
+                        ,ChevyTraverse_0000, ToyotaCamry_0000, GMCSierra_0000, FordFusion_0000 
+                        ,FordEscape_0000, FordFocus_0000, ChevyColorado_0000
+                        ,);
 
 
     
