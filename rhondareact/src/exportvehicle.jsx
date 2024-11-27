@@ -22,36 +22,6 @@ let HondaAccord_2915 = {
         VIN: "2915",
         Type: "cars",
     }
-let LincolnTownCar_2099 = {
-        Year: "2002",
-        Make: "Lincoln",
-        Model: "TownCar",
-        Miles: "59,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "2099",
-        Type: "cars",
-    }
-let ToyotaSienna_3806 = {
-        Year: "2006",
-        Make: "Toyota",
-        Model: "Sienna",
-        Miles: "211,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3806",
-        Type: "vans",
-    }
-let ToyotaCamry_1974 = {
-        Year: "2007",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "209,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "1974",
-        Type: "cars",
-    }
 let HyundaiSonata_0000 = {
         Year: "2009",
         Make: "Hyundai",
@@ -70,36 +40,6 @@ let FordFiesta_2502 = {
         Engine: "Automatic",
         ExtColor: "Blue",
         VIN: "2502",
-        Type: "cars",
-    }
-let ChevyImpala_4300 = {
-        Year: "2009",
-        Make: "Chevy",
-        Model: "Impala",
-        Miles: "113,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "4300",
-        Type: "cars",
-    }
-let DodgeRam_6820 = {
-        Year: "2006",
-        Make: "Dodge",
-        Model: "Ram",
-        Miles: "192,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "6820",
-        Type: "trucks",
-    }
-let HyundaiSonata_2394 = {
-        Year: "2009",
-        Make: "Hyundai",
-        Model: "Sonata",
-        Miles: "175,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "2394",
         Type: "cars",
     }
 let HondaAccord_0201 = {
@@ -122,139 +62,6 @@ let GMCCanyon_2352 = {
         VIN: "2352",
         Type: "trucks",
     }
-let HyundaiAzera_2729 = {
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Azera",
-        Miles: "166,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "2729",
-        Type: "cars",
-    }
-let Mazda3_8461 = {
-        Year: "2009",
-        Make: "Mazda",
-        Model: "3",
-        Miles: "147,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "8461",
-        Type: "cars",
-    }
-let VolkswagonCC_3467 = {
-        Year: "2012",
-        Make: "Volkswagon",
-        Model: "CC",
-        Miles: "113,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "3467",
-        Type: "cars",
-    }
-
-
-
-let DodgeDakota_0000 = {
-        Year: "2004",
-        Make: "Dodge",
-        Model: "Dakota",
-        Miles: "190,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "0000",
-        Type: "trucks",
-    }
-let Mazda_0000 = {
-        Year: "2012",
-        Make: "Mazda",
-        Model: "",
-        Miles: "127,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "cars",
-    }
-let ChevyTraverse_0000 = {
-        Year: "2009",
-        Make: "Chevy",
-        Model: "Traverse",
-        Miles: "142,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "suvs",
-    }
-let KiaRio_0000 = {
-        Year: "2013",
-        Make: "Kia",
-        Model: "Rio",
-        Miles: "115,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0000",
-        Type: "cars",
-    }
-let DodgeGrandCaravan_0000 = {
-        Year: "2002",
-        Make: "Dodge",
-        Model: "GrandCaravan",
-        Miles: "171,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "0000",
-        Type: "vans",
-    }
-let HyundaiEntourage_0000 = {
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Entourage",
-        Miles: "152,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "cars",
-    }
-let ChevyColorado_0000 = {
-        Year: "2008",
-        Make: "Chevy",
-        Model: "Colorado",
-        Miles: "157,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0000",
-        Type: "trucks",
-    }
-let SaturnVue_0000 = {
-        Year: "2008",
-        Make: "Saturn",
-        Model: "Vue",
-        Miles: "154,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "suvs",
-    }
-let GMCCanyon_0000 = {
-        Year: "2005",
-        Make: "GMC",
-        Model: "Canyon",
-        Miles: "178,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "cars",
-    }
-let HyundaiElantra_1939 = {
-        Year: "2011",
-        Make: "Hyundai",
-        Model: "Elantra",
-        Miles: "130,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "1939",
-        Type: "cars",
-    }
 let ToyotaCamry_0000 = {
         Year: "2005",
         Make: "Toyota",
@@ -264,36 +71,6 @@ let ToyotaCamry_0000 = {
         ExtColor: "Gray",
         VIN: "0000",
         Type: "cars",
-    }
-let ChryslerPTCruiser_0000 = {
-        Year: "2001",
-        Make: "Chrysler",
-        Model: "PTCruiser",
-        Miles: "117,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "suvs",
-    }
-let ChryslerTC_0001 = {
-        Year: "2005",
-        Make: "Chrysler",
-        Model: "TC",
-        Miles: "223,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "0001",
-        Type: "vans",
-    }
-let FordEscape_0000 = {
-        Year: "2014",
-        Make: "Ford",
-        Model: "Escape",
-        Miles: "138,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "suvs",
     }
 let FordFusion_0000 = {
         Year: "2010",
@@ -305,83 +82,153 @@ let FordFusion_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let GMCSierra_0000 = {
-        Year: "2011",
-        Make: "GMC",
-        Model: "Sierra",
-        Miles: "98,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "0000",
-        Type: "trucks",
-    }
-let GMCTerrain_0000 = {
-        Year: "2015",
-        Make: "GMC",
-        Model: "Terrain",
-        Miles: "155,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "0000",
-        Type: "suvs",
-    }
-
-
-let HyundaiElantra_0000 = {
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Elantra",
-        Miles: "119,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0000",
-        Type: "cars",
-    }
-
-let FordFocus_0000 = {
-        Year: "2011",
-        Make: "Ford",
-        Model: "Focus",
-        Miles: "248,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "cars",
-    }
-let ChevySilverado_0000 = {
-        Year: "2003",
-        Make: "Chevy",
-        Model: "Silverado",
-        Miles: "217,000",
-        Engine: "Automatic",
-        ExtColor: "Maroon",
-        VIN: "0000",
-        Type: "trucks",
-    }
-let FordF150_0000 = {
+let FordF150_2095 = {
         Year: "2002",
         Make: "Ford",
         Model: "F150",
         Miles: "138,000",
         Engine: "Automatic",
         ExtColor: "Silver",
-        VIN: "0000",
+        VIN: "2095",
         Type: "trucks",
     }
-let FordF150_0001 = {
-        Year: "2007",
-        Make: "Ford",
-        Model: "F150",
+let GMCSierra_0000 = {
+        Year: "2011",
+        Make: "GMC",
+        Model: "Sierra",
         Miles: "150,000",
         Engine: "Automatic",
         ExtColor: "Blue",
-        VIN: "0001",
+        VIN: "0000",
         Type: "trucks",
     }
-    allvehiclearray.push(HondaAccord_2915, ToyotaCamry_1974, HyundaiSonata_0000, FordFiesta_2502 
-                        ,HondaAccord_0201, GMCCanyon_2352, HyundaiElantra_0000, DodgeDakota_0000 //HondaVan Missing
-                        ,ChevyTraverse_0000, ToyotaCamry_0000, GMCSierra_0000, FordFusion_0000 
-                        ,FordEscape_0000, FordFocus_0000, ChevyColorado_0000
+let DodgeCaravan_1031 = {
+        Year: "2002",
+        Make: "Dodge",
+        Model: "Caravan",
+        Miles: "171,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "1031",
+        Type: "vans",
+    }
+let HyundaiSantaFe_3362 = {
+        Year: "2010",
+        Make: "Hyundai",
+        Model: "SantaFe",
+        Miles: "130,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "3362",
+        Type: "suvs",
+    }
+let MazdaMPV_7484 = {
+        Year: "2005",
+        Make: "Mazda",
+        Model: "MPV",
+        Miles: "133,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "7484",
+        Type: "vans",
+    }
+let ChevyEquinox_3715 = {
+        Year: "2014",
+        Make: "Chevy",
+        Model: "Equinox",
+        Miles: "156,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "3715",
+        Type: "suvs",
+    }
+let DodgeCaravan_2055 = {
+        Year: "2005",
+        Make: "Dodge",
+        Model: "Caravan",
+        Miles: "158,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "2055",
+        Type: "vans",
+    }
+let ChevyHHR_3000 = {
+        Year: "2007",
+        Make: "Chevy",
+        Model: "HHR",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Orange",
+        VIN: "3000",
+        Type: "suvs",
+    }
+let Mazda3_1780 = {
+        Year: "2013",
+        Make: "Mazda",
+        Model: "3",
+        Miles: "174,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "1780",
+        Type: "cars",
+    }
+let ChevyImpala_5778 = {
+        Year: "2006",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "129,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "5778",
+        Type: "cars",
+    }
+let NissanFrontier_0000 = {
+        Year: "2000",
+        Make: "Nissan",
+        Model: "Frontier",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "0000",
+        Type: "trucks",
+    }
+let FordF150_1995 = {
+        Year: "1995",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "1995",
+        Type: "trucks",
+    }
+let ChevyUplander_0000 = {
+        Year: "2006",
+        Make: "Chevy",
+        Model: "Uplander",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0000",
+        Type: "vans",
+    }
+let HyundaiSonata_3187 = {
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Sonata",
+        Miles: "155,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "3187",
+        Type: "cars",
+    }
+    allvehiclearray.push(HondaAccord_2915, HyundaiSonata_0000, FordFiesta_2502 
+                        ,HondaAccord_0201, GMCCanyon_2352
+                        ,ToyotaCamry_0000, FordFusion_0000, ChevyHHR_3000
+                        ,NissanFrontier_0000, ChevyImpala_5778, DodgeCaravan_2055
+                        ,ChevyEquinox_3715, MazdaMPV_7484, HyundaiSantaFe_3362
+                        ,DodgeCaravan_1031, FordF150_2095
+                        ,FordF150_1995, ChevyUplander_0000, HyundaiSonata_3187
                         ,);
 
 
