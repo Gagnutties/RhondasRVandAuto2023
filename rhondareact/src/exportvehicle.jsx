@@ -12,17 +12,7 @@ export default function GetVehicle({category}) {
     //Length of the new list of cars
 
 
-let HondaAccord_2915 = {
-        Year: "2003",
-        Make: "Honda",
-        Model: "Accord",
-        Miles: "178,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "2915",
-        Type: "cars",
-    }
-let HyundaiSonata_0000 = {
+let HyundaiSonata_0000 = { 
         Year: "2009",
         Make: "Hyundai",
         Model: "Sonata",
@@ -32,7 +22,7 @@ let HyundaiSonata_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let FordFiesta_2502 = {
+let FordFiesta_2502 = { 
         Year: "2011",
         Make: "Ford",
         Model: "Fiesta",
@@ -42,7 +32,7 @@ let FordFiesta_2502 = {
         VIN: "2502",
         Type: "cars",
     }
-let HondaAccord_0201 = {
+let HondaAccord_0201 = { 
         Year: "2008",
         Make: "Honda",
         Model: "Accord",
@@ -52,27 +42,7 @@ let HondaAccord_0201 = {
         VIN: "0201",
         Type: "cars",
     }
-let GMCCanyon_2352 = {
-        Year: "2008",
-        Make: "GMC",
-        Model: "Canyon",
-        Miles: "161,000",
-        Engine: "Automatic",
-        ExtColor: "Tan",
-        VIN: "2352",
-        Type: "trucks",
-    }
-let ToyotaCamry_0000 = {
-        Year: "2005",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "165,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0000",
-        Type: "cars",
-    }
-let FordFusion_0000 = {
+let FordFusion_0000 = { 
         Year: "2010",
         Make: "Ford",
         Model: "Fusion",
@@ -82,7 +52,7 @@ let FordFusion_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let FordF150_2095 = {
+let FordF150_2095 = { 
         Year: "2002",
         Make: "Ford",
         Model: "F150",
@@ -92,17 +62,7 @@ let FordF150_2095 = {
         VIN: "2095",
         Type: "trucks",
     }
-let GMCSierra_0000 = {
-        Year: "2011",
-        Make: "GMC",
-        Model: "Sierra",
-        Miles: "150,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "0000",
-        Type: "trucks",
-    }
-let DodgeCaravan_1031 = {
+let DodgeCaravan_1031 = { 
         Year: "2002",
         Make: "Dodge",
         Model: "Caravan",
@@ -112,27 +72,7 @@ let DodgeCaravan_1031 = {
         VIN: "1031",
         Type: "vans",
     }
-let HyundaiSantaFe_3362 = {
-        Year: "2010",
-        Make: "Hyundai",
-        Model: "SantaFe",
-        Miles: "130,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "3362",
-        Type: "suvs",
-    }
-let MazdaMPV_7484 = {
-        Year: "2005",
-        Make: "Mazda",
-        Model: "MPV",
-        Miles: "133,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "7484",
-        Type: "vans",
-    }
-let ChevyEquinox_3715 = {
+let ChevyEquinox_3715 = { 
         Year: "2014",
         Make: "Chevy",
         Model: "Equinox",
@@ -142,7 +82,7 @@ let ChevyEquinox_3715 = {
         VIN: "3715",
         Type: "suvs",
     }
-let DodgeCaravan_2055 = {
+let DodgeCaravan_2055 = { 
         Year: "2005",
         Make: "Dodge",
         Model: "Caravan",
@@ -152,27 +92,7 @@ let DodgeCaravan_2055 = {
         VIN: "2055",
         Type: "vans",
     }
-let ChevyHHR_3000 = {
-        Year: "2007",
-        Make: "Chevy",
-        Model: "HHR",
-        Miles: "140,000",
-        Engine: "Automatic",
-        ExtColor: "Orange",
-        VIN: "3000",
-        Type: "suvs",
-    }
-let Mazda3_1780 = {
-        Year: "2013",
-        Make: "Mazda",
-        Model: "3",
-        Miles: "174,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "1780",
-        Type: "cars",
-    }
-let ChevyImpala_5778 = {
+let ChevyImpala_5778 = { 
         Year: "2006",
         Make: "Chevy",
         Model: "Impala",
@@ -182,7 +102,7 @@ let ChevyImpala_5778 = {
         VIN: "5778",
         Type: "cars",
     }
-let NissanFrontier_0000 = {
+let NissanFrontier_0000 = { 
         Year: "2000",
         Make: "Nissan",
         Model: "Frontier",
@@ -192,27 +112,7 @@ let NissanFrontier_0000 = {
         VIN: "0000",
         Type: "trucks",
     }
-let FordF150_1995 = {
-        Year: "1995",
-        Make: "Ford",
-        Model: "F150",
-        Miles: "Unknown",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "1995",
-        Type: "trucks",
-    }
-let ChevyUplander_0000 = {
-        Year: "2006",
-        Make: "Chevy",
-        Model: "Uplander",
-        Miles: "Unknown",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "vans",
-    }
-let HyundaiSonata_3187 = {
+let HyundaiSonata_3187 = { 
         Year: "2008",
         Make: "Hyundai",
         Model: "Sonata",
@@ -222,14 +122,30 @@ let HyundaiSonata_3187 = {
         VIN: "3187",
         Type: "cars",
     }
-    allvehiclearray.push(HondaAccord_2915, HyundaiSonata_0000, FordFiesta_2502 
-                        ,HondaAccord_0201, GMCCanyon_2352
-                        ,ToyotaCamry_0000, FordFusion_0000, ChevyHHR_3000
-                        ,NissanFrontier_0000, ChevyImpala_5778, DodgeCaravan_2055
-                        ,ChevyEquinox_3715, MazdaMPV_7484, HyundaiSantaFe_3362
-                        ,DodgeCaravan_1031, FordF150_2095
-                        ,FordF150_1995, ChevyUplander_0000, HyundaiSonata_3187
-                        ,);
+let ChevyHHR_3000 = { 
+        Year: "2008",
+        Make: "Chevy",
+        Model: "HHR",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "3000",
+        Type: "cars",
+    }
+let ChryslerPTCruiser_1738 = { 
+        Year: "2001",
+        Make: "Chrysler",
+        Model: "PTCruiser",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "1738",
+        Type: "cars",
+    }
+    allvehiclearray.push(HyundaiSonata_3187,NissanFrontier_0000,ChevyImpala_5778,
+                    DodgeCaravan_2055,ChevyEquinox_3715,DodgeCaravan_1031,
+                    FordF150_2095,FordFusion_0000,HondaAccord_0201,FordFiesta_2502,
+                    HyundaiSonata_0000,ChryslerPTCruiser_1738,ChevyHHR_3000);
 
 
     
