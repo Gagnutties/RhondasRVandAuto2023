@@ -142,9 +142,9 @@ let ChryslerPTCruiser_1738 = {
         VIN: "1738",
         Type: "cars",
     }
-    allvehiclearray.push(HyundaiSonata_3187,NissanFrontier_0000,ChevyImpala_5778,
+    allvehiclearray.push(HyundaiSonata_3187,ChevyImpala_5778,
                     DodgeCaravan_2055,ChevyEquinox_3715,DodgeCaravan_1031,
-                    FordF150_2095,FordFusion_0000,HondaAccord_0201,FordFiesta_2502,
+                    FordFusion_0000,HondaAccord_0201,
                     HyundaiSonata_0000,ChryslerPTCruiser_1738,ChevyHHR_3000);
 
 
