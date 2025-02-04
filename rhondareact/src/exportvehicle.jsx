@@ -12,45 +12,95 @@ export default function GetVehicle({category}) {
     //Length of the new list of cars
 
 
-let HyundaiSonata_0000 = { 
-        Year: "2009",
-        Make: "Hyundai",
-        Model: "Sonata",
-        Miles: "158,000",
+let ChevyEquinox_3715 = { 
+        Year: "2014",
+        Make: "Chevy",
+        Model: "Equinox",
+        Miles: "156,000",
         Engine: "Automatic",
-        ExtColor: "Green",
-        VIN: "0000",
-        Type: "cars",
+        ExtColor: "White",
+        VIN: "3715",
+        Type: "suvs",
     }
-let FordFiesta_2502 = { 
-        Year: "2011",
-        Make: "Ford",
-        Model: "Fiesta",
-        Miles: "130,000",
+let SaturnIon_3303 = { 
+        Year: "2005",
+        Make: "Saturn",
+        Model: "Ion",
+        Miles: "180,000",
         Engine: "Automatic",
         ExtColor: "Blue",
-        VIN: "2502",
+        VIN: "3303",
         Type: "cars",
     }
-let HondaAccord_0201 = { 
-        Year: "2008",
+let HondaAccord_7207 = { 
+        Year: "2001",
         Make: "Honda",
         Model: "Accord",
-        Miles: "153,000",
+        Miles: "135,000",
         Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "0201",
+        ExtColor: "Gold",
+        VIN: "7207",
         Type: "cars",
     }
-let FordFusion_0000 = { 
-        Year: "2010",
+let ChevyMalibu_4300 = { 
+        Year: "2011",
+        Make: "Chevy",
+        Model: "Malibu",
+        Miles: "86,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "4300",
+        Type: "cars",
+    }
+let HondaCivic_9296 = { 
+        Year: "2006",
+        Make: "Honda",
+        Model: "Civic",
+        Miles: "151,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "9296",
+        Type: "cars",
+    }
+let FordExplorer_8974 = { 
+        Year: "2004",
         Make: "Ford",
-        Model: "Fusion",
-        Miles: "190,000",
+        Model: "Explorer",
+        Miles: "134,000",
+        Engine: "Automatic",
+        ExtColor: "Gold",
+        VIN: "8974",
+        Type: "suvs",
+    }
+let ChevyTrailblazer_4722 = { 
+        Year: "2007",
+        Make: "Chevy",
+        Model: "Trailblazer",
+        Miles: "156,000",
         Engine: "Automatic",
         ExtColor: "Black",
-        VIN: "0000",
+        VIN: "4722",
+        Type: "suvs",
+    }
+let FordTaurus_2007 = { 
+        Year: "2008",
+        Make: "Ford",
+        Model: "Taurus",
+        Miles: "104,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "2007",
         Type: "cars",
+    }
+let KiaSedona_3989 = { 
+        Year: "2009",
+        Make: "Kia",
+        Model: "Sedona",
+        Miles: "120,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3989",
+        Type: "vans",
     }
 let FordF150_2095 = { 
         Year: "2002",
@@ -62,90 +112,73 @@ let FordF150_2095 = {
         VIN: "2095",
         Type: "trucks",
     }
-let DodgeCaravan_1031 = { 
-        Year: "2002",
-        Make: "Dodge",
-        Model: "Caravan",
-        Miles: "171,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1031",
-        Type: "vans",
-    }
-let ChevyEquinox_3715 = { 
-        Year: "2014",
-        Make: "Chevy",
-        Model: "Equinox",
-        Miles: "156,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "3715",
-        Type: "suvs",
-    }
-let DodgeCaravan_2055 = { 
-        Year: "2005",
-        Make: "Dodge",
-        Model: "Caravan",
-        Miles: "158,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "2055",
-        Type: "vans",
-    }
-let ChevyImpala_5778 = { 
-        Year: "2006",
-        Make: "Chevy",
-        Model: "Impala",
-        Miles: "129,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "5778",
-        Type: "cars",
-    }
-let NissanFrontier_0000 = { 
-        Year: "2000",
-        Make: "Nissan",
-        Model: "Frontier",
-        Miles: "Unknown",
+let Ram1500_0000 = { 
+        Year: "2003",
+        Make: "Ram",
+        Model: "1500",
+        Miles: "000,000",
         Engine: "Automatic",
         ExtColor: "Blue",
         VIN: "0000",
         Type: "trucks",
     }
-let HyundaiSonata_3187 = { 
-        Year: "2008",
-        Make: "Hyundai",
-        Model: "Sonata",
-        Miles: "155,000",
+let FordFocus_1619 = { 
+        Year: "2012",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "103,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "1619",
+        Type: "cars",
+    }
+let ChevySuburban_6383 = { 
+        Year: "2009",
+        Make: "Chevy",
+        Model: "Suburban",
+        Miles: "280,000",
+        Engine: "Automatic",
+        ExtColor: "Gold",
+        VIN: "6383",
+        Type: "suvs",
+    }
+let FordFlex_7907 = { 
+        Year: "2014",
+        Make: "Ford",
+        Model: "Flex",
+        Miles: "280,000",
         Engine: "Automatic",
         ExtColor: "White",
-        VIN: "3187",
-        Type: "cars",
+        VIN: "7907",
+        Type: "suvs",
     }
-let ChevyHHR_3000 = { 
-        Year: "2008",
-        Make: "Chevy",
-        Model: "HHR",
-        Miles: "140,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "3000",
-        Type: "cars",
-    }
-let ChryslerPTCruiser_1738 = { 
-        Year: "2001",
-        Make: "Chrysler",
-        Model: "PTCruiser",
-        Miles: "Unknown",
+let HondaAccord_0201 = { 
+        Year: "2009",
+        Make: "Honda",
+        Model: "Accord",
+        Miles: "158,000",
         Engine: "Automatic",
         ExtColor: "Silver",
-        VIN: "1738",
+        VIN: "0201",
         Type: "cars",
     }
-    allvehiclearray.push(HyundaiSonata_3187,ChevyImpala_5778,
-                    DodgeCaravan_2055,ChevyEquinox_3715,DodgeCaravan_1031,
-                    FordFusion_0000,HondaAccord_0201,
-                    HyundaiSonata_0000,ChryslerPTCruiser_1738,ChevyHHR_3000);
+
+    allvehiclearray.push(
+                    ChevySuburban_6383,
+                    ChevyEquinox_3715, 
+                    HondaAccord_0201,
+                    SaturnIon_3303, 
+                    HondaAccord_7207, 
+                    ChevyMalibu_4300, 
+                    HondaCivic_9296, 
+                    FordExplorer_8974, 
+                    FordFlex_7907,
+                    ChevyTrailblazer_4722, 
+                    FordTaurus_2007, 
+                    KiaSedona_3989, 
+                    FordF150_2095, 
+                    Ram1500_0000, 
+                    FordFocus_1619); 
 
 
     
