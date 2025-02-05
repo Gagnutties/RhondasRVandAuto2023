@@ -162,11 +162,33 @@ let HondaAccord_0201 = {
         VIN: "0201",
         Type: "cars",
     }
+let ChevyHHR_3000 = { 
+        Year: "2008",
+        Make: "Chevy",
+        Model: "HHR",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "3000",
+        Type: "cars",
+    }
+let HyundaiSonata_4220 = { 
+        Year: "2009",
+        Make: "Hyundai",
+        Model: "Sonata",
+        Miles: "158,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "4220",
+        Type: "cars",
+    }
 
     allvehiclearray.push(
                     ChevySuburban_6383,
                     ChevyEquinox_3715, 
                     HondaAccord_0201,
+                    HyundaiSonata_4220,
+                    ChevyHHR_3000,
                     SaturnIon_3303, 
                     HondaAccord_7207, 
                     ChevyMalibu_4300, 

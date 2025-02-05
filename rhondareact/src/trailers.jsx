@@ -17,6 +17,16 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
+                <CamperNode
+                Title="Skyline Weekender"
+                Year="2014"
+                FT=""
+                ImageName="./assets/SkylineWeekender.jpg"/>
+                <CamperNode
+                Title="Jayco Popup"
+                Year="2014"
+                FT=""
+                ImageName="./assets/JaycoPopup.jpg"/>
             </div>
         </div>
     );
@@ -63,11 +73,11 @@ function CamperNode({Title, Year, FT, ImageName}) {
                     <tr>
                     <td>Year</td>
                     <td>{Year}</td>
-                    </tr>
-                    <tr>
+                    </tr> 
+                 {/*<tr>
                     <td>Feet</td>
                     <td>{FT}</td>
-                    </tr>
+                </tr>*/}
                 </tbody>
             </table>
         </div>
