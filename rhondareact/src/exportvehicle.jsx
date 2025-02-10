@@ -193,7 +193,6 @@ let HyundaiSonata_4220 = {
                     FordExplorer_8974, 
                     FordFlex_7907,
                     ChevyTrailblazer_4722, 
-                    KiaSedona_3989, 
                     FordF150_2095, 
                     Ram1500_0000, 
                     FordFocus_1619); 
