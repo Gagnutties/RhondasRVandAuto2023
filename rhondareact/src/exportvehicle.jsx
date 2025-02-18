@@ -52,16 +52,6 @@ let ChevyMalibu_4300 = {
         VIN: "4300",
         Type: "cars",
     }
-let HondaCivic_9296 = { 
-        Year: "2006",
-        Make: "Honda",
-        Model: "Civic",
-        Miles: "151,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "9296",
-        Type: "cars",
-    }
 let FordExplorer_8974 = { 
         Year: "2004",
         Make: "Ford",
@@ -81,26 +71,6 @@ let ChevyTrailblazer_4722 = {
         ExtColor: "Black",
         VIN: "4722",
         Type: "suvs",
-    }
-let FordTaurus_2007 = { 
-        Year: "2008",
-        Make: "Ford",
-        Model: "Taurus",
-        Miles: "104,000",
-        Engine: "Automatic",
-        ExtColor: "Green",
-        VIN: "2007",
-        Type: "cars",
-    }
-let KiaSedona_3989 = { 
-        Year: "2009",
-        Make: "Kia",
-        Model: "Sedona",
-        Miles: "120,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "3989",
-        Type: "vans",
     }
 let FordF150_2095 = { 
         Year: "2002",
@@ -152,16 +122,6 @@ let FordFlex_7907 = {
         VIN: "7907",
         Type: "suvs",
     }
-let HondaAccord_0201 = { 
-        Year: "2009",
-        Make: "Honda",
-        Model: "Accord",
-        Miles: "158,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "0201",
-        Type: "cars",
-    }
 let ChevyHHR_3000 = { 
         Year: "2008",
         Make: "Chevy",
@@ -182,20 +142,141 @@ let HyundaiSonata_4220 = {
         VIN: "4220",
         Type: "cars",
     }
+let ChryslerTC_5493 = { 
+        Year: "2008",
+        Make: "Chrysler",
+        Model: "TC",
+        Miles: "153,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "5493",
+        Type: "vans",
+    }
+let FordEscape_3792 = { 
+        Year: "2012",
+        Make: "Ford",
+        Model: "Escape",
+        Miles: "153,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "3792",
+        Type: "suvs",
+    }
+let HyundaiElantra_2473 = { 
+        Year: "2008",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "139,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "2473",
+        Type: "cars",
+    }
+let HyundaiAccent_1668 = { 
+        Year: "2013",
+        Make: "Hyundai",
+        Model: "Accent",
+        Miles: "126,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "1668",
+        Type: "cars",
+    }
+let KiaOptima_3577 = { 
+        Year: "2011",
+        Make: "Kia",
+        Model: "Optima",
+        Miles: "131,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "3577",
+        Type: "cars",
+    }
+let HondaAccord_5344 = { 
+        Year: "2007",
+        Make: "Honda",
+        Model: "Accord",
+        Miles: "160,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "5344",
+        Type: "cars",
+    }
+let ChryslerPTCruiser_8691 = { 
+        Year: "2001",
+        Make: "Chrysler",
+        Model: "PTCruiser",
+        Miles: "155,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "8691",
+        Type: "cars",
+    }
+let FordF150_3653 = { 
+        Year: "2008",
+        Make: "Ford",
+        Model: "F150",
+        Miles: "138,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "3653",
+        Type: "trucks",
+    }
+let FordEscape_7266 = { 
+        Year: "2013",
+        Make: "Ford",
+        Model: "Escape",
+        Miles: "87,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "7266",
+        Type: "suvs",
+    }
+let HyundaiElantra_7613 = { 
+        Year: "2011",
+        Make: "Hyundai",
+        Model: "Elantra",
+        Miles: "143,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "7613",
+        Type: "cars",
+    }
+let ChevyTrailblazer_0429 = { 
+        Year: "2009",
+        Make: "Chevy",
+        Model: "Trailblazer",
+        Miles: "138,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0429",
+        Type: "suvs",
+    }
+
 
     allvehiclearray.push(
-                    ChevySuburban_6383,
-                    ChevyEquinox_3715,
-                    HyundaiSonata_4220,
-                    ChevyHHR_3000, 
-                    HondaAccord_7207, 
-                    ChevyMalibu_4300, 
-                    FordExplorer_8974, 
-                    FordFlex_7907,
-                    ChevyTrailblazer_4722, 
-                    FordF150_2095, 
-                    Ram1500_0000, 
-                    FordFocus_1619); 
+        ChevyTrailblazer_0429, 
+        KiaOptima_3577,
+        HyundaiAccent_1668,
+        HyundaiElantra_2473,
+        FordEscape_3792,
+        ChryslerTC_5493,
+        HyundaiElantra_7613,
+        FordEscape_7266,
+        FordF150_3653,
+        HondaAccord_5344,
+
+
+        SaturnIon_3303,
+        ChevyEquinox_3715,
+        HyundaiSonata_4220, 
+        HondaAccord_7207, 
+        ChevyMalibu_4300, 
+        FordExplorer_8974, 
+        FordFlex_7907, 
+        FordF150_2095, 
+        Ram1500_0000,
+        ); 
 
 
     
