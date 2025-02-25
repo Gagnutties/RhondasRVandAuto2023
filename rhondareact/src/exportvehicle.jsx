@@ -256,24 +256,17 @@ let ChevyTrailblazer_0429 = {
 
     allvehiclearray.push(
         ChevyTrailblazer_0429, 
-        KiaOptima_3577,
         HyundaiAccent_1668,
         HyundaiElantra_2473,
-        FordEscape_3792,
-        ChryslerTC_5493,
         HyundaiElantra_7613,
-        FordEscape_7266,
         FordF150_3653,
         HondaAccord_5344,
 
 
-        SaturnIon_3303,
         ChevyEquinox_3715,
         HyundaiSonata_4220, 
-        HondaAccord_7207, 
         ChevyMalibu_4300, 
         FordExplorer_8974, 
-        FordFlex_7907, 
         FordF150_2095, 
         Ram1500_0000,
         ); 
