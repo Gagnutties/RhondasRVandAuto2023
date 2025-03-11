@@ -17,6 +17,8 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
+            </div>
+            <div id="trailer_list">
                 <CamperNode
                 Title="Skyline Weekender"
                 Year="2014"
@@ -27,6 +29,16 @@ export default function Trailers() {
                 Year="2014"
                 FT=""
                 ImageName="./assets/JaycoPopup.jpg"/>
+                <CamperNode
+                Title="Gulf Stream Amerilite"
+                Year="2015"
+                FT=""
+                ImageName="./assets/Amerilite.jpg"/>
+                <CamperNode
+                Title="Gulf Breeze Ultra Lite"
+                Year="2014"
+                FT=""
+                ImageName="./assets/GulfStreamUltraLite.jpg"/>
             </div>
         </div>
     );
