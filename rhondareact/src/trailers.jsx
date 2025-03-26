@@ -20,11 +20,6 @@ export default function Trailers() {
             </div>
             <div id="trailer_list">
                 <CamperNode
-                Title="Skyline Weekender"
-                Year="2014"
-                FT=""
-                ImageName="./assets/SkylineWeekender.jpg"/>
-                <CamperNode
                 Title="Jayco Popup"
                 Year="2014"
                 FT=""
