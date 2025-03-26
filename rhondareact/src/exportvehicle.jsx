@@ -324,7 +324,7 @@ let ChevyAveo_0000 = {
         FordFocus_3830,
         FordFocus_1975,
         KiaForte_9965,
-        FordF150_9198,
+        //FordF150_9198,
         //HyundaiElantra_4798,
         //ChevySpark_3990,
         ChevyTrailblazer_0775,
