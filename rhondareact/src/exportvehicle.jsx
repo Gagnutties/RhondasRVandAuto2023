@@ -310,11 +310,11 @@ let ChevyAveo_0000 = {
         HyundaiAzera_1613,
         PontiacG6_4624,
         //FordF150_6426,
-        KiaSoul_7911,
-        ToyotaAvalon_2048,
+        //KiaSoul_7911,
+        //ToyotaAvalon_2048,
         HondaCivic_2953,
         DodgeDakota_0583,
-        FordRanger_4304,
+        //FordRanger_4304,
         ToyotaCamry_8458,
         Mazda3_5405,
         //ToyotaCamry_7278,
@@ -332,9 +332,9 @@ let ChevyAveo_0000 = {
         //ChevyPTCruiser_8691,
         //ChevyAveo_0000,
 
-        HondaAccord_5344,
-        HyundaiSonata_4220, 
-        ChevyMalibu_4300,  
+        //HondaAccord_5344,
+        //HyundaiSonata_4220, 
+        //ChevyMalibu_4300,  
         FordF150_2095, 
         ); 
 
