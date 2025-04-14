@@ -321,21 +321,12 @@ let ChevyAveo_0000 = {
         ChevyCruze_5073,
         ChryslerTC_0910,
         Chrysler200_3766, 
-        FordFocus_3830,
         FordFocus_1975,
-        KiaForte_9965,
         //FordF150_9198,
         //HyundaiElantra_4798,
         //ChevySpark_3990,
         ChevyTrailblazer_0775,
         HyundaiElantra_1692, 
-        //ChevyPTCruiser_8691,
-        //ChevyAveo_0000,
-
-        //HondaAccord_5344,
-        //HyundaiSonata_4220, 
-        //ChevyMalibu_4300,  
-        FordF150_2095, 
         ); 
 
 
