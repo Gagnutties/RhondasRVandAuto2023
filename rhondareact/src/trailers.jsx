@@ -29,11 +29,6 @@ export default function Trailers() {
                 Year="2015"
                 FT=""
                 ImageName="./assets/Amerilite.jpg"/>
-                <CamperNode
-                Title="Gulf Breeze Ultra Lite"
-                Year="2014"
-                FT=""
-                ImageName="./assets/GulfStreamUltraLite.jpg"/>
             </div>
         </div>
     );
