@@ -234,6 +234,16 @@ let ChevyCaptiva_4816 = {
         VIN: "4816",
         Type: "suvs",
     }
+let GMCBus_1560 = { 
+        Year: "2006",
+        Make: "GMC",
+        Model: "Bus",
+        Miles: "85,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "1560",
+        Type: "vans",
+    }
 
     allvehiclearray.push(
         FordFusion_2692,
@@ -258,6 +268,7 @@ let ChevyCaptiva_4816 = {
         ChevyTrailblazer_0775,
         HyundaiElantra_1692, 
         ChevyMalibu_4300,
+        GMCBus_1560,
         ); 
 
 
