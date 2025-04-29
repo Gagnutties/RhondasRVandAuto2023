@@ -224,12 +224,23 @@ let LexusRX350_6067 = {
         VIN: "6067",
         Type: "suvs",
     }
+let ChevyCaptiva_4816 = { 
+        Year: "2014",
+        Make: "Chevy",
+        Model: "Captiva",
+        Miles: "167,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "4816",
+        Type: "suvs",
+    }
 
     allvehiclearray.push(
         FordFusion_2692,
         DodgeCaravan_1584,
         VolkswagonCC_8855,
         DodgeRam_1734,
+        ChevyCaptiva_4816,
         JeepGrandCherokee_5348,
         LexusRX350_6067,
         SaturnSSeries_8170,
