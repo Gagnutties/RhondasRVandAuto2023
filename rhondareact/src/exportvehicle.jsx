@@ -244,6 +244,16 @@ let GMCBus_1560 = {
         VIN: "1560",
         Type: "vans",
     }
+let FordEscape_0000 = { 
+        Year: "2009",
+        Make: "Ford",
+        Model: "Escape",
+        Miles: "000,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "0000",
+        Type: "suvs",
+    }
 
     allvehiclearray.push(
         FordFusion_2692,
@@ -257,7 +267,7 @@ let GMCBus_1560 = {
         ChevyCobalt_0001,
         BuickTerraza_3531,
         ChevyCobalt_0000,
-        
+        FordEscape_0000,
         HyundaiAzera_1613,
         HondaCivic_2953,
         DodgeDakota_0583,
