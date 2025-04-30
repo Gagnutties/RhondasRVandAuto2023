@@ -163,14 +163,14 @@ let HyundaiAzera_7064 = {
         VIN: "7064",
         Type: "cars",
     }
-let JeepGrandCherokee_5348 = { 
-        Year: "2004",
+let JeepWrangler_3790 = { 
+        Year: "2000",
         Make: "Jeep",
-        Model: "GrandCherokee",
-        Miles: "173,000",
+        Model: "Wrangler",
+        Miles: "000,000",
         Engine: "Automatic",
-        ExtColor: "Gold",
-        VIN: "5348",
+        ExtColor: "Black",
+        VIN: "3790",
         Type: "suvs",
     }
 
@@ -261,7 +261,7 @@ let FordEscape_0000 = {
         VolkswagonCC_8855,
         DodgeRam_1734,
         ChevyCaptiva_4816,
-        JeepGrandCherokee_5348,
+        JeepWrangler_3790,
         LexusRX350_6067,
         SaturnSSeries_8170,
         ChevyCobalt_0001,
