@@ -256,17 +256,17 @@ let FordEscape_0000 = {
     }
 
     allvehiclearray.push(
-        FordFusion_2692,
+        //FordFusion_2692,
         DodgeCaravan_1584,
         VolkswagonCC_8855,
         DodgeRam_1734,
         ChevyCaptiva_4816,
         JeepWrangler_3790,
-        LexusRX350_6067,
+        //LexusRX350_6067,
         SaturnSSeries_8170,
         ChevyCobalt_0001,
-        BuickTerraza_3531,
-        ChevyCobalt_0000,
+        //BuickTerraza_3531,
+        //ChevyCobalt_0000,
         FordEscape_0000,
         HyundaiAzera_1613,
         HondaCivic_2953,
@@ -275,8 +275,8 @@ let FordEscape_0000 = {
         Mazda3_5405,
         ChryslerTC_0910,
         Chrysler200_3766, 
-        ChevyTrailblazer_0775,
-        HyundaiElantra_1692, 
+        //ChevyTrailblazer_0775,
+        //HyundaiElantra_1692, 
         ChevyMalibu_4300,
         GMCBus_1560,
         ); 
