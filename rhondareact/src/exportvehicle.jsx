@@ -235,29 +235,42 @@ let FordF150_0000 = {
     }
 
     allvehiclearray.push(
-        FordFusion_2692,
+<<<<<<< HEAD
+        //FordF150_0000,
+        HondaOdyssey_0000,
+        ChevyEquinox_0000,
+        ChevySilverado_0000,
+        MercedesBenz_4652,
+        //ChevySilverado_2092,
+        ChevySilverado_6396,
+        FordEscape_0001,
+        BuickLucerne_0000,
+        HyundaiElantra_0000,
+
+
+=======
+        //FordFusion_2692,
+>>>>>>> 5ffcc15c12fea74af96e3e1247c816ee113dac3f
         DodgeCaravan_1584,
         DodgeRam_1734,
-        ChevyCaptiva_4816,
-        JeepWrangler_3790,
-        LexusRX350_6067,
-        SaturnSSeries_8170,
-        ChevyCobalt_0001,
-        BuickTerraza_3531,
-        ChevyCobalt_0000,
-        FordEscape_0000,
         HyundaiAzera_1613,
         HondaCivic_2953,
         DodgeDakota_0583,
         Mazda3_5405,
+<<<<<<< HEAD
+=======
+        ChryslerTC_0910,
+        Chrysler200_3766, 
+        //ChevyTrailblazer_0775,
+        //HyundaiElantra_1692, 
+        ChevyMalibu_4300,
+>>>>>>> 5ffcc15c12fea74af96e3e1247c816ee113dac3f
         GMCBus_1560,
         ChryslerTC_0910,
         ChevyMalibu_4300,
         Chrysler200_3766, 
-        ChevyTrailblazer_0775,
-        HyundaiElantra_1692, 
-        ChevyMalibu_4300,
-        GMCBus_1560,
+        JeepWrangler_3790,
+        FordEscape_0000,
         ); 
 
 
