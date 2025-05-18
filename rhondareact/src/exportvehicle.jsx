@@ -235,7 +235,6 @@ let FordF150_0000 = {
     }
 
     allvehiclearray.push(
-<<<<<<< HEAD
         //FordF150_0000,
         HondaOdyssey_0000,
         ChevyEquinox_0000,
@@ -248,23 +247,15 @@ let FordF150_0000 = {
         HyundaiElantra_0000,
 
 
-=======
-        //FordFusion_2692,
->>>>>>> 5ffcc15c12fea74af96e3e1247c816ee113dac3f
         DodgeCaravan_1584,
         DodgeRam_1734,
         HyundaiAzera_1613,
         HondaCivic_2953,
         DodgeDakota_0583,
         Mazda3_5405,
-<<<<<<< HEAD
-=======
         ChryslerTC_0910,
-        Chrysler200_3766, 
-        //ChevyTrailblazer_0775,
-        //HyundaiElantra_1692, 
+        Chrysler200_3766,  
         ChevyMalibu_4300,
->>>>>>> 5ffcc15c12fea74af96e3e1247c816ee113dac3f
         GMCBus_1560,
         ChryslerTC_0910,
         ChevyMalibu_4300,
