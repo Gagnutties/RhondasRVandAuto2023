@@ -235,20 +235,17 @@ let FordF150_0000 = {
     }
 
     allvehiclearray.push(
-        //FordF150_0000,
-        HondaOdyssey_0000,
-        ChevyEquinox_0000,
-        ChevySilverado_0000,
-        MercedesBenz_4652,
-        //ChevySilverado_2092,
-        ChevySilverado_6396,
-        FordEscape_0001,
-        BuickLucerne_0000,
-        HyundaiElantra_0000,
-
-
+        FordFusion_2692,
         DodgeCaravan_1584,
         DodgeRam_1734,
+        ChevyCaptiva_4816,
+        JeepWrangler_3790,
+        LexusRX350_6067,
+        SaturnSSeries_8170,
+        ChevyCobalt_0001,
+        BuickTerraza_3531,
+        ChevyCobalt_0000,
+        FordEscape_0000,
         HyundaiAzera_1613,
         HondaCivic_2953,
         DodgeDakota_0583,
@@ -257,8 +254,10 @@ let FordF150_0000 = {
         ChryslerTC_0910,
         ChevyMalibu_4300,
         Chrysler200_3766, 
-        JeepWrangler_3790,
-        FordEscape_0000,
+        ChevyTrailblazer_0775,
+        HyundaiElantra_1692, 
+        ChevyMalibu_4300,
+        GMCBus_1560,
         ); 
 
 
