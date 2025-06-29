@@ -62,16 +62,6 @@ let Mazda3_5405 = {
         VIN: "5405",
         Type: "cars",
     }
-let ChryslerTC_0910 = { 
-        Year: "2010",
-        Make: "Chrysler",
-        Model: "TC",
-        Miles: "138,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0910",
-        Type: "vans",
-    }
 let Chrysler200_3766 = { 
         Year: "2011",
         Make: "Chrysler",
@@ -81,26 +71,6 @@ let Chrysler200_3766 = {
         ExtColor: "White",
         VIN: "3766",
         Type: "cars",
-    }
-let DodgeCaravan_1584 = { 
-        Year: "2011",
-        Make: "Dodge",
-        Model: "Caravan",
-        Miles: "167,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1584",
-        Type: "vans",
-    }
-let DodgeRam_1734 = { 
-        Year: "2008",
-        Make: "Dodge",
-        Model: "Ram",
-        Miles: "161,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "1734",
-        Type: "trucks",
     }
 let JeepWrangler_3790 = { 
         Year: "2000",
@@ -143,26 +113,6 @@ let HyundaiElantra_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let BuickLucerne_0000 = { 
-        Year: "2007",
-        Make: "Buick",
-        Model: "Lucerne",
-        Miles: "166,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "0000",
-        Type: "cars",
-    }
-let FordEscape_0001 = { 
-        Year: "2009",
-        Make: "Ford",
-        Model: "Escape",
-        Miles: "145,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "0001",
-        Type: "suvs",
-    }
 let ChevySilverado_6396 = { 
         Year: "2007",
         Make: "Chevy",
@@ -171,16 +121,6 @@ let ChevySilverado_6396 = {
         Engine: "Automatic",
         ExtColor: "Blue",
         VIN: "6396",
-        Type: "trucks",
-    }
-let ChevySilverado_2092 = { 
-        Year: "2013",
-        Make: "Chevy",
-        Model: "Silverado",
-        Miles: "199,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "2092",
         Type: "trucks",
     }
 let MercedesBenz_4652 = { 
@@ -193,16 +133,6 @@ let MercedesBenz_4652 = {
         VIN: "4652",
         Type: "suvs",
     }
-let ChevySilverado_0000 = { 
-        Year: "2002",
-        Make: "Chevy",
-        Model: "Silverado",
-        Miles: "156,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "0000",
-        Type: "trucks",
-    }
 let ChevyEquinox_0000 = { 
         Year: "2014",
         Make: "Chevy",
@@ -213,55 +143,125 @@ let ChevyEquinox_0000 = {
         VIN: "0000",
         Type: "suvs",
     }
-let HondaOdyssey_0000 = { 
-        Year: "2013",
-        Make: "Honda",
-        Model: "Odyssey",
-        Miles: "167,000",
+let Mazda2_0000 = { 
+        Year: "2011",
+        Make: "Mazda",
+        Model: "2",
+        Miles: "124,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0000",
+        Type: "cars",
+    }
+let ChevySonic_0000 = { 
+        Year: "2017",
+        Make: "Chevy",
+        Model: "Sonic",
+        Miles: "115,000",
+        Engine: "Automatic",
+        ExtColor: "Orange",
+        VIN: "0000",
+        Type: "cars",
+    }
+let JeepGrandCherokee = { 
+        Year: "2004",
+        Make: "Jeep",
+        Model: "GrandCherokee",
+        Miles: "140,000",
         Engine: "Automatic",
         ExtColor: "Black",
         VIN: "0000",
-        Type: "vans",
+        Type: "suvs",
     }
-let FordF150_0000 = { 
-        Year: "2001",
-        Make: "Ford",
-        Model: "F150",
-        Miles: "000,000",
+let ChevyAveo_0000 = { 
+        Year: "2010",
+        Make: "Chevy",
+        Model: "Aveo",
+        Miles: "134,000",
         Engine: "Automatic",
         ExtColor: "Silver",
         VIN: "0000",
-        Type: "trucks",
+        Type: "cars",
+    }
+let ChevyImpala_0000 = { 
+        Year: "2008",
+        Make: "Chevy",
+        Model: "Impala",
+        Miles: "145,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "0000",
+        Type: "cars",
+    }
+let MercedesE320_0000 = { 
+        Year: "2001",
+        Make: "Mercedes",
+        Model: "E320",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0000",
+        Type: "cars",
+    }
+let ChevyCruze_0000 = { 
+        Year: "2016",
+        Make: "Chevy",
+        Model: "Cruze",
+        Miles: "Unknown",
+        Engine: "Automatic",
+        ExtColor: "white",
+        VIN: "0000",
+        Type: "cars",
+    }
+let KiaSoul_0000 = { 
+        Year: "2014",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "103,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0000",
+        Type: "suvs",
+    }
+let KiaSedona_0000 = { 
+        Year: "2016",
+        Make: "Kia",
+        Model: "Sedona",
+        Miles: "N/A",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "0000",
+        Type: "vans",
     }
 
+
     allvehiclearray.push(
-        //FordF150_0000,
-        HondaOdyssey_0000,
+        KiaSedona_0000,
+        KiaSoul_0000,
+        ChevyCruze_0000,
+        MercedesE320_0000,
+        ChevyImpala_0000,
+        ChevyAveo_0000,
+        JeepGrandCherokee,
+        ChevySonic_0000,
+        Mazda2_0000,
+
         ChevyEquinox_0000,
-        ChevySilverado_0000,
         MercedesBenz_4652,
-        //ChevySilverado_2092,
         ChevySilverado_6396,
-        FordEscape_0001,
-        BuickLucerne_0000,
         HyundaiElantra_0000,
 
-
-        DodgeCaravan_1584,
-        DodgeRam_1734,
         HyundaiAzera_1613,
         HondaCivic_2953,
         DodgeDakota_0583,
         Mazda3_5405,
-        ChryslerTC_0910,
         Chrysler200_3766,  
         ChevyMalibu_4300,
         GMCBus_1560,
-        ChryslerTC_0910,
-        ChevyMalibu_4300,
-        Chrysler200_3766, 
         JeepWrangler_3790,
         FordEscape_0000,
+
+
         ); 
 
 

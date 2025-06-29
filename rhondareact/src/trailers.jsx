@@ -18,13 +18,8 @@ export default function Trailers() {
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
             </div>
-            <div id="trailer_list">
-                <CamperNode
-                Title="Gulf Stream Amerilite"
-                Year="2015"
-                FT=""
-                ImageName="./assets/Amerilite.jpg"/>
-            </div>
+            {/*<div id="trailer_list">*/}
+            {/*</div>}*/}
         </div>
     );
 }
