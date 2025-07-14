@@ -102,7 +102,6 @@ let FordEscape_0000 = {
         VIN: "0000",
         Type: "suvs",
     }
-
 let HyundaiElantra_0000 = { 
         Year: "2017",
         Make: "Hyundai",
@@ -203,16 +202,6 @@ let MercedesE320_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let ChevyCruze_0000 = { 
-        Year: "2016",
-        Make: "Chevy",
-        Model: "Cruze",
-        Miles: "Unknown",
-        Engine: "Automatic",
-        ExtColor: "white",
-        VIN: "0000",
-        Type: "cars",
-    }
 let KiaSoul_0000 = { 
         Year: "2014",
         Make: "Kia",
@@ -223,10 +212,10 @@ let KiaSoul_0000 = {
         VIN: "0000",
         Type: "suvs",
     }
-let KiaSedona_0000 = { 
-        Year: "2016",
+let KiaForte_0000 = { 
+        Year: "2017",
         Make: "Kia",
-        Model: "Sedona",
+        Model: "Forte",
         Miles: "N/A",
         Engine: "Automatic",
         ExtColor: "Silver",
@@ -234,11 +223,100 @@ let KiaSedona_0000 = {
         Type: "vans",
     }
 
+let GMCAcadia_KVPD = { 
+        Year: "2014",
+        Make: "GMC",
+        Model: "Acadia",
+        Miles: "134,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "KVPD",
+        Type: "suvs",
+    }
+let FordRanger_5938 = { 
+        Year: "2010",
+        Make: "Ford",
+        Model: "Ranger",
+        Miles: "195,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "5938",
+        Type: "trucks",
+    }
+let MercuryMountaineer_8041 = { 
+        Year: "2008",
+        Make: "Mercury",
+        Model: "Mountaineer",
+        Miles: "101,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "8041",
+        Type: "suvs",
+    }
+let KiaSoul_8877 = { 
+        Year: "2014",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "126,000",
+        Engine: "Automatic",
+        ExtColor: "blue",
+        VIN: "8877",
+        Type: "cars",
+    }
+let FordMustang_9922 = { 
+        Year: "2010",
+        Make: "Ford",
+        Model: "Mustang",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "9922",
+        Type: "cars",
+    }
+let Lexus380_3351 = { 
+        Year: "2003",
+        Make: "Lexus",
+        Model: "380",
+        Miles: "158,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "3351",
+        Type: "cars",
+    }
+let Mazda6_7376 = { 
+        Year: "2010",
+        Make: "Mazda",
+        Model: "6",
+        Miles: "136,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "7376",
+        Type: "cars",
+    }
+let FordExpedition_4821 = { 
+        Year: "2001",
+        Make: "Ford",
+        Model: "Expedition",
+        Miles: "N/A",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "4821",
+        Type: "suvs",
+    }
+
 
     allvehiclearray.push(
-        KiaSedona_0000,
+        FordExpedition_4821,
+        Mazda6_7376,
+        Lexus380_3351,
+        KiaSoul_8877,
+        FordMustang_9922,
+        MercuryMountaineer_8041,
+        FordRanger_5938,
+        GMCAcadia_KVPD,
+
+        KiaForte_0000,
         KiaSoul_0000,
-        ChevyCruze_0000,
         MercedesE320_0000,
         ChevyImpala_0000,
         ChevyAveo_0000,
