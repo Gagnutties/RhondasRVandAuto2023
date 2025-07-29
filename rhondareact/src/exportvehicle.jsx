@@ -310,13 +310,11 @@ let FordExpedition_4821 = {
         Mazda6_7376,
         Lexus380_3351,
         KiaSoul_8877,
-        FordMustang_9922,
         MercuryMountaineer_8041,
         FordRanger_5938,
         GMCAcadia_KVPD,
 
         KiaForte_0000,
-        KiaSoul_0000,
         MercedesE320_0000,
         ChevyImpala_0000,
         ChevyAveo_0000,
@@ -326,7 +324,6 @@ let FordExpedition_4821 = {
 
         ChevyEquinox_0000,
         MercedesBenz_4652,
-        ChevySilverado_6396,
         HyundaiElantra_0000,
 
         HyundaiAzera_1613,
