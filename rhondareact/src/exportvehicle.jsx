@@ -306,15 +306,12 @@ let FordExpedition_4821 = {
 
 
     allvehiclearray.push(
-        Mazda6_7376,
         Lexus380_3351,
         KiaSoul_8877,
         MercuryMountaineer_8041,
-        FordRanger_5938,
         GMCAcadia_KVPD,
 
         ChevyImpala_0000,
-        ChevyAveo_0000,
         JeepGrandCherokee,
         ChevySonic_0000,
         Mazda2_0000,
