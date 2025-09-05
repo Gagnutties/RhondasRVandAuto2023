@@ -17,6 +17,16 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
+                <CamperNode 
+                Title="Fleetwood Popup"
+                Year=""
+                ImageName="./assets/fleetwoodpopup20205.jpg"
+                />
+                <CamperNode 
+                Title="Sportsman Classic"
+                Year="2020"
+                ImageName="./assets/sportsmanclassic.jpg"
+                />
             </div>
             {/*<div id="trailer_list">*/}
             {/*</div>}*/}
