@@ -384,22 +384,13 @@ let FordFusion_2517 = {
         KiaOptima_0000,
         SaturnVue_9478,
         FordFusion_2517,
-        BuickEnclave_8547,
         ChevyHHR_0000,
-        GMCAcadia_5888,
         FordMustang_3077,
-        HondaOdyssey_0000,
-        ToyotaCorolla_9096,
-        ChevyCruze_8545,
-        ChevyCruze_0000,
-        KiaSportage_0560,
         ChevyEquinox_1179,
-        HondaAccord_0130,
         HondaCivic_4146,
         KiaSorento_1722,
 
         KiaSoul_8877,
-        GMCAcadia_KVPD,
 
         ChevyImpala_0000,
         JeepGrandCherokee,
@@ -411,8 +402,7 @@ let FordFusion_2517 = {
         HyundaiElantra_0000,
 
         HyundaiAzera_1613,
-        HondaCivic_2953,
-        Mazda3_5405,  
+        HondaCivic_2953,  
         GMCBus_1560,
 
 
