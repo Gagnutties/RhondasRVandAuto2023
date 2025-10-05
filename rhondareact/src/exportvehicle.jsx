@@ -361,6 +361,27 @@ let FordFusion_2517 = {
     }
 
 
+let ToyotaCamry_0000 = { 
+        Year: "2007",
+        Make: "Toyota",
+        Model: "Camry",
+        Miles: "NA",
+        Engine: "Automatic",
+        ExtColor: "Gold",
+        VIN: "0000",
+        Type: "cars",
+    }
+let KiaSportage_0000 = { 
+        Year: "2015",
+        Make: "Kia",
+        Model: "Sportage",
+        Miles: "104,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0000",
+        Type: "suvs",
+    }
+
 
 
 
@@ -377,9 +398,9 @@ let FordFusion_2517 = {
 
 
     allvehiclearray.push(
-        FordFusion_9478,
+        ToyotaCamry_0000,
+        KiaSportage_0000,
         PTCruiser_4466,
-        SubaruLegacy_1234,
         SuzukiForenza_3410,
         KiaOptima_0000,
         SaturnVue_9478,
@@ -389,20 +410,12 @@ let FordFusion_2517 = {
         ChevyEquinox_1179,
         HondaCivic_4146,
         KiaSorento_1722,
-
         KiaSoul_8877,
-
         ChevyImpala_0000,
-        JeepGrandCherokee,
         ChevySonic_0000,
         Mazda2_0000,
-
-        ChevyEquinox_0000,
         MercedesBenz_4652,
-        HyundaiElantra_0000,
-
         HyundaiAzera_1613,
-        HondaCivic_2953,  
         GMCBus_1560,
 
 
