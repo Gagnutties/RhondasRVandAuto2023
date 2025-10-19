@@ -11,37 +11,6 @@ export default function GetVehicle({category}) {
     //All cars of a passed in category
     //Length of the new list of cars
 
-
-let HyundaiAzera_1613 = { 
-        Year: "2007",
-        Make: "Hyundai",
-        Model: "Azera",
-        Miles: "183,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "1613",
-        Type: "cars",
-    }
-let HondaCivic_2953 = { 
-        Year: "2006",
-        Make: "Honda",
-        Model: "Civic",
-        Miles: "172,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "2953",
-        Type: "cars",
-    }
-let Mazda3_5405 = { 
-        Year: "2012",
-        Make: "Mazda",
-        Model: "3",
-        Miles: "124,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "5405",
-        Type: "cars",
-    }
 let GMCBus_1560 = { 
         Year: "2006",
         Make: "GMC",
@@ -52,16 +21,6 @@ let GMCBus_1560 = {
         VIN: "1560",
         Type: "vans",
     }
-let HyundaiElantra_0000 = { 
-        Year: "2017",
-        Make: "Hyundai",
-        Model: "Elantra",
-        Miles: "114,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "0000",
-        Type: "cars",
-    }
 let MercedesBenz_4652 = { 
         Year: "2001",
         Make: "Mercedes",
@@ -70,16 +29,6 @@ let MercedesBenz_4652 = {
         Engine: "Automatic",
         ExtColor: "Silver",
         VIN: "4652",
-        Type: "suvs",
-    }
-let ChevyEquinox_0000 = { 
-        Year: "2014",
-        Make: "Chevy",
-        Model: "Equinox",
-        Miles: "135,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "0000",
         Type: "suvs",
     }
 let Mazda2_0000 = { 
@@ -102,16 +51,6 @@ let ChevySonic_0000 = {
         VIN: "0000",
         Type: "cars",
     }
-let JeepGrandCherokee = { 
-        Year: "2004",
-        Make: "Jeep",
-        Model: "GrandCherokee",
-        Miles: "140,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "0000",
-        Type: "suvs",
-    }
 let ChevyImpala_0000 = { 
         Year: "2008",
         Make: "Chevy",
@@ -121,16 +60,6 @@ let ChevyImpala_0000 = {
         ExtColor: "Silver",
         VIN: "0000",
         Type: "cars",
-    }
-let GMCAcadia_KVPD = { 
-        Year: "2014",
-        Make: "GMC",
-        Model: "Acadia",
-        Miles: "134,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "KVPD",
-        Type: "suvs",
     }
 let KiaSoul_8877 = { 
         Year: "2014",
@@ -142,10 +71,6 @@ let KiaSoul_8877 = {
         VIN: "8877",
         Type: "cars",
     }
-
-
-
-
 let HondaCivic_4146 = { 
         Year: "1996",
         Make: "Honda",
@@ -155,36 +80,6 @@ let HondaCivic_4146 = {
         ExtColor: "green",
         VIN: "4146",
         Type: "cars",
-    }
-let HondaAccord_0130 = { 
-        Year: "2002",
-        Make: "Honda",
-        Model: "Accord",
-        Miles: "169,000",
-        Engine: "Automatic",
-        ExtColor: "green",
-        VIN: "0130",
-        Type: "cars",
-    }
-let BuickEnclave_8547 = { 
-        Year: "2008",
-        Make: "Buick",
-        Model: "Enclave",
-        Miles: "135,000",
-        Engine: "Automatic",
-        ExtColor: "Silver",
-        VIN: "8547",
-        Type: "suvs",
-    }
-let GMCAcadia_5888 = { 
-        Year: "2011",
-        Make: "GMC",
-        Model: "Acadia",
-        Miles: "131,000",
-        Engine: "Automatic",
-        ExtColor: "black",
-        VIN: "5888",
-        Type: "suvs",
     }
 let SaturnVue_9478 = { 
         Year: "2009",
@@ -196,26 +91,6 @@ let SaturnVue_9478 = {
         VIN: "9478",
         Type: "suvs",
     }
-let FordFusion_9478 = { 
-        Year: "2006",
-        Make: "Ford",
-        Model: "Fusion",
-        Miles: "153,000",
-        Engine: "Automatic",
-        ExtColor: "black",
-        VIN: "9478",
-        Type: "cars",
-    }
-let ToyotaCorolla_9096 = { 
-        Year: "2010",
-        Make: "Toyota",
-        Model: "Corolla",
-        Miles: "199,000",
-        Engine: "Automatic",
-        ExtColor: "white",
-        VIN: "9096",
-        Type: "cars",
-    }
 let ChevyEquinox_1179 = { 
         Year: "2007",
         Make: "Chevy",
@@ -225,39 +100,6 @@ let ChevyEquinox_1179 = {
         ExtColor: "black",
         VIN: "1179",
         Type: "suvs",
-    }
-let SubaruLegacy_1234 = { 
-        Year: "2012",
-        Make: "Subaru",
-        Model: "Legacy",
-        Miles: "161,000",
-        Engine: "Automatic",
-        ExtColor: "silver",
-        VIN: "1234",
-        Type: "cars",
-    }
-let HondaOdyssey_0000 = { 
-        Year: "2003",
-        Make: "Honda",
-        Model: "Odyssey",
-        Miles: "unknown",
-        Engine: "Automatic",
-        ExtColor: "white",
-        VIN: "0000",
-        Type: "vans",
-    }
-
-
-
-let ToyotaCamry_7278 = { 
-        Year: "2007",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "184,000",
-        Engine: "Automatic",
-        ExtColor: "black",
-        VIN: "7278",
-        Type: "cars",
     }
 let KiaOptima_0000 = { 
         Year: "2014",
@@ -277,26 +119,6 @@ let ChevyHHR_0000 = {
         Engine: "Automatic",
         ExtColor: "Orange",
         VIN: "0000",
-        Type: "suvs",
-    }
-let ChevyCruze_0000 = { 
-        Year: "2014",
-        Make: "Chevy",
-        Model: "Cruze",
-        Miles: "130,000",
-        Engine: "Automatic",
-        ExtColor: "Gold",
-        VIN: "0000",
-        Type: "cars",
-    }
-let KiaSportage_0560 = { 
-        Year: "2009",
-        Make: "Kia",
-        Model: "Sportage",
-        Miles: "Exempt",
-        Engine: "Automatic",
-        ExtColor: "blue",
-        VIN: "0560",
         Type: "suvs",
     }
 let KiaSorento_1722 = { 
@@ -319,16 +141,6 @@ let SuzukiForenza_3410 = {
         VIN: "3410",
         Type: "cars",
     }
-let ChevyCruze_8545 = { 
-        Year: "2015",
-        Make: "Chevy",
-        Model: "Cruze",
-        Miles: "143,000",
-        Engine: "Automatic",
-        ExtColor: "black",
-        VIN: "8545",
-        Type: "cars",
-    } 
 let PTCruiser_4466 = { 
         Year: "2005",
         Make: "PT",
@@ -361,23 +173,84 @@ let FordFusion_2517 = {
     }
 
 
-let ToyotaCamry_0000 = { 
-        Year: "2007",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "NA",
+
+let KiaSoul_0947 = { 
+        Year: "2019",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "102,000",
         Engine: "Automatic",
-        ExtColor: "Gold",
-        VIN: "0000",
+        ExtColor: "Gray",
+        VIN: "0947",
         Type: "cars",
     }
-let KiaSportage_0000 = { 
-        Year: "2015",
+let KiaSoul_5822 = { 
+        Year: "2014",
         Make: "Kia",
-        Model: "Sportage",
+        Model: "Soul",
         Miles: "104,000",
         Engine: "Automatic",
         ExtColor: "Black",
+        VIN: "5822",
+        Type: "cars",
+    }
+let KiaSoul_5058 = { 
+        Year: "2013",
+        Make: "Kia",
+        Model: "Soul",
+        Miles: "151,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "5058",
+        Type: "cars",
+    }
+let FordFocus_8667 = { 
+        Year: "2014",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "42,000",
+        Engine: "Automatic",
+        ExtColor: "Maroon",
+        VIN: "8667",
+        Type: "cars",
+    }
+let FordFocus_0518 = { 
+        Year: "2005",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "89,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "0518",
+        Type: "cars",
+    }
+let ChevyEquinox_3856 = { 
+        Year: "2006",
+        Make: "Chevy",
+        Model: "Equinox",
+        Miles: "146,000",
+        Engine: "Automatic",
+        ExtColor: "white",
+        VIN: "3856",
+        Type: "suvs",
+    }
+let KiaOptima_4025 = { 
+        Year: "2007",
+        Make: "Kia",
+        Model: "Optima",
+        Miles: "128,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4025",
+        Type: "cars",
+    }
+let JeepPatriot_0000 = { 
+        Year: "2011",
+        Make: "Jeep",
+        Model: "Patriot",
+        Miles: "174,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
         VIN: "0000",
         Type: "suvs",
     }
@@ -393,13 +266,19 @@ let KiaSportage_0000 = {
 
 
 
-
-
-
-
     allvehiclearray.push(
-        ToyotaCamry_0000,
-        KiaSportage_0000,
+        JeepPatriot_0000,
+        KiaOptima_4025,
+        ChevyEquinox_3856,
+        FordFocus_0518,
+        FordFocus_8667,
+        KiaSoul_5058,
+        KiaSoul_5822,
+        KiaSoul_0947,
+
+
+
+
         PTCruiser_4466,
         SuzukiForenza_3410,
         KiaOptima_0000,
@@ -415,7 +294,6 @@ let KiaSportage_0000 = {
         ChevySonic_0000,
         Mazda2_0000,
         MercedesBenz_4652,
-        HyundaiAzera_1613,
         GMCBus_1560,
 
 
