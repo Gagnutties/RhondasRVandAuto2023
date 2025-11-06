@@ -255,9 +255,156 @@ let JeepPatriot_0000 = {
         Type: "suvs",
     }
 
-
-
-
+let JeepPatriot_9912 = { 
+        Year: "2012",
+        Make: "Jeep",
+        Model: "Patriot",
+        Miles: "103,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "9912",
+        Type: "suvs",
+    }
+let PTCruiser_0000 = { 
+        Year: "2008",
+        Make: "PT",
+        Model: "Cruiser",
+        Miles: "000,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "0000",
+        Type: "cars",
+    }
+let GMCTerrain_5657 = { 
+        Year: "2014",
+        Make: "GMC",
+        Model: "Terrain",
+        Miles: "154,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "5657",
+        Type: "suvs",
+    }
+let FordEdge_4492 = { 
+        Year: "2014",
+        Make: "Ford",
+        Model: "Edge",
+        Miles: "154,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "4492",
+        Type: "suvs",
+    }
+let GMCTerrain_5938 = { 
+        Year: "2016",
+        Make: "GMC",
+        Model: "Terrain",
+        Miles: "108,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "5938",
+        Type: "suvs",
+    }
+let ChevyEquinox_4038 = { 
+        Year: "2010",
+        Make: "Chevy",
+        Model: "Equinox",
+        Miles: "147,000",
+        Engine: "Automatic",
+        ExtColor: "Blue",
+        VIN: "4038",
+        Type: "suvs",
+    }
+let MercuryMilan_5808 = { 
+        Year: "2007",
+        Make: "Mercury",
+        Model: "Milan",
+        Miles: "126,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "5808",
+        Type: "cars",
+    }
+let ChevyCruze_5040 = { 
+        Year: "20XX",
+        Make: "Chevy",
+        Model: "Cruze",
+        Miles: "126,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "5040",
+        Type: "cars",
+    }
+let FordTaurus_4279 = { 
+        Year: "1997",
+        Make: "Ford",
+        Model: "Taurus",
+        Miles: "106,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "4279",
+        Type: "cars",
+    }
+let JeepPatriot_4594 = { 
+        Year: "2014",
+        Make: "Jeep",
+        Model: "Patriot",
+        Miles: "108,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "4594",
+        Type: "suvs",
+    }
+let KiaOptima_7153 = { 
+        Year: "2014",
+        Make: "Kia",
+        Model: "Optima",
+        Miles: "142,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "7153",
+        Type: "cars",
+    }
+let FordF250_3305 = { 
+        Year: "2008",
+        Make: "Ford",
+        Model: "F250",
+        Miles: "166,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "3305",
+        Type: "trucks",
+    }
+let GMCTerrain_1066 = { 
+        Year: "2014",
+        Make: "GMC",
+        Model: "Terrain",
+        Miles: "137,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "1066",
+        Type: "suvs",
+    }
+let FordFocus_9928 = { 
+        Year: "2009",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "135,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "9928",
+        Type: "cars",
+    }
+let FordFocus_1435 = { 
+        Year: "20XX",
+        Make: "Ford",
+        Model: "Focus",
+        Miles: "124,000",
+        Engine: "Automatic",
+        ExtColor: "Maroon",
+        VIN: "1435",
+        Type: "cars",
+    }
 
 
 
@@ -267,18 +414,26 @@ let JeepPatriot_0000 = {
 
 
     allvehiclearray.push(
+        FordFocus_1435,
+        FordFocus_9928,
+        GMCTerrain_1066,
+        FordF250_3305,
+        KiaOptima_7153,
+        JeepPatriot_4594,
+        FordTaurus_4279,
+        ChevyCruze_5040,
+        MercuryMilan_5808,
+        ChevyEquinox_4038,
+        GMCTerrain_5938,
+        FordEdge_4492,
+        GMCTerrain_5657,
+        PTCruiser_0000,
+        JeepPatriot_9912,
+
         JeepPatriot_0000,
         KiaOptima_4025,
-        ChevyEquinox_3856,
         FordFocus_0518,
-        FordFocus_8667,
         KiaSoul_5058,
-        KiaSoul_5822,
-        KiaSoul_0947,
-
-
-
-
         PTCruiser_4466,
         SuzukiForenza_3410,
         KiaOptima_0000,
@@ -292,7 +447,6 @@ let JeepPatriot_0000 = {
         KiaSoul_8877,
         ChevyImpala_0000,
         ChevySonic_0000,
-        Mazda2_0000,
         MercedesBenz_4652,
         GMCBus_1560,
 

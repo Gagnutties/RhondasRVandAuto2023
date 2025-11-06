@@ -22,11 +22,6 @@ export default function Trailers() {
                 Year=""
                 ImageName="./assets/fleetwoodpopup20205.jpg"
                 />
-                <CamperNode 
-                Title="Sportsman Classic"
-                Year="2020"
-                ImageName="./assets/sportsmanclassic.jpg"
-                />
             </div>
             {/*<div id="trailer_list">*/}
             {/*</div>}*/}
