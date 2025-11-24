@@ -22,6 +22,12 @@ export default function Trailers() {
                 Year=""
                 ImageName="./assets/fleetwoodpopup20205.jpg"
                 />
+                <HitchNode 
+                Title="Native Trailer"
+                Year="2026"
+                FT="18ft Deck / 2ft Dove"
+                ImageName="./assets/NativeTrailer2026.jpg"
+                />
             </div>
             {/*<div id="trailer_list">*/}
             {/*</div>}*/}
@@ -75,6 +81,26 @@ function CamperNode({Title, Year, FT, ImageName}) {
                     <td>Feet</td>
                     <td>{FT}</td>
                 </tr>*/}
+                </tbody>
+            </table>
+        </div>
+    );
+ }
+function HitchNode({Title, Year, FT, ImageName}) {
+    return (
+        <div class="trailernode">
+            <h3 id="panelheader">{Title}</h3>
+            <img class="image_placeholder" src={ImageName}></img>
+            <table>
+                <tbody>
+                    <tr>
+                    <td>Year</td>
+                    <td>{Year}</td>
+                    </tr> 
+                    <tr>
+                    <td>Feet</td>
+                    <td>{FT}</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
