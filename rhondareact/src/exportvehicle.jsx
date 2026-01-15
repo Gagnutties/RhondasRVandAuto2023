@@ -405,6 +405,86 @@ let FordFocus_1435 = {
         VIN: "1435",
         Type: "cars",
     }
+let ScionTC_9058 = { 
+        Year: "2012",
+        Make: "Scion",
+        Model: "TC",
+        Miles: "125,000",
+        Engine: "Automatic",
+        ExtColor: "Gray",
+        VIN: "9058",
+        Type: "cars",
+    }
+let Ram1500_0000 = { 
+        Year: "2006",
+        Make: "Ram",
+        Model: "1500",
+        Miles: "153,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "0000",
+        Type: "trucks",
+    }
+let Ram1500_6981 = { 
+        Year: "2012",
+        Make: "Ram",
+        Model: "1500",
+        Miles: "159,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "6981",
+        Type: "trucks",
+    }
+let ToyotaCorolla_0373 = { 
+        Year: "2016",
+        Make: "Toyota",
+        Model: "Corolla",
+        Miles: "215,000",
+        Engine: "Automatic",
+        ExtColor: "red",
+        VIN: "0373",
+        Type: "cars",
+    }
+let FordMustang_3572 = { 
+        Year: "2014",
+        Make: "Ford",
+        Model: "Mustang",
+        Miles: "134,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "3572",
+        Type: "cars",
+    }
+let HyundaiSonata_0000 = { 
+        Year: "2013",
+        Make: "Hyundai",
+        Model: "Sonata",
+        Miles: "000,000",
+        Engine: "Automatic",
+        ExtColor: "Red",
+        VIN: "0000",
+        Type: "suvs",
+    }
+let ChevyColorado_1077 = { 
+        Year: "2008",
+        Make: "Chevy",
+        Model: "Colorado",
+        Miles: "000,000",
+        Engine: "Automatic",
+        ExtColor: "Black",
+        VIN: "1077",
+        Type: "trucks",
+    }
+let KiaSedona_9075 = { 
+        Year: "2020",
+        Make: "Kia",
+        Model: "Sedona",
+        Miles: "99,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "9075",
+        Type: "vans",
+    }
 
 
 
@@ -414,6 +494,18 @@ let FordFocus_1435 = {
 
 
     allvehiclearray.push(
+        ScionTC_9058,
+        Ram1500_0000,
+        Ram1500_6981,
+        ToyotaCorolla_0373,
+        FordMustang_3572,
+        HyundaiSonata_0000,
+        ChevyColorado_1077,
+        KiaSedona_9075,
+
+
+
+
         FordFocus_1435,
         FordFocus_9928,
         KiaOptima_7153,
