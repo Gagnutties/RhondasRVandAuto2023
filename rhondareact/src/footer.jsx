@@ -10,7 +10,7 @@ export default function Footer() {
             <h3>Address: </h3> <p>1251 State Road 256 Austin Indiana 47102</p>
             <h3>Office Phone Number: </h3><p>812-794-2222</p>
             <h3>Email: </h3><p>rhondagsmith2@gmail.com</p>
-            <h3>Hours: </h3><p>8:00pm to 5:00pm Monday to Friday. 8:00pm to 3:00pm Saturday</p>
+            <h3>Hours: </h3><p>8:00pm to 5:00pm Monday to Friday. 8:00am to 3:00pm Saturday</p>
             <div id="bottomspace"></div>
         </footer>
     );
