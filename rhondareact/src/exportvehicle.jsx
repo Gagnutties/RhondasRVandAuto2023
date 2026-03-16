@@ -358,18 +358,9 @@ let FordF150_2008 = {
 
     allvehiclearray.push(
         ChevyTraverse_2015,
-        ChevyImpala_2009,
-        MitsubishiRaider_2007,
         KiaSoul_2013,
-        FordTaurus_2008,
-        FordEdge_2013,
-        ChevyTracker_2003,
-        DodgeCaravan_2012,
         ChevyTraverse_3897,
-        ChevyHHR_2009,
-        LincolnTownCar_2004,
         NissanQuest_2012,
-        FordF150_2008,
 
 
 
@@ -378,18 +369,12 @@ let FordF150_2008 = {
 
 
         KiaForte_2012,
-        KiaRio_2007,
         ToyotaCamry_2011,
-        ScionTC_9058,
         ToyotaCorolla_0373,
         HyundaiSonata_0000,
         KiaOptima_7153,
-        JeepPatriot_4594,
-        FordTaurus_4279,
-        ChevyCruze_5040,
         KiaSoul_5058,
         SaturnVue_9478,
-        KiaSorento_1722,
         MazdaCX7_2008,
         IsuzuHombre_1998,
         FordEscape_2011,
