@@ -283,25 +283,13 @@ let DodgeDart_2013 = {
         Type: "cars",
     }
 
-    allvehiclearray.push(
-        DodgeDart_2013,
-        Chevy3500_2004,
+allvehiclearray.push(
         MitsubishiRaider_2007,
         DodgeRam_2004,
         KiaSorento_2009,
-        ToyotaCamry_2003,
         FordFocus_2014,
-        ChevyTahoe_2007,
         ChevyCaptiva_2013,
-        FordExplorer_2008,
-        NissanQuest_2012,
-        Fiat_2015,
-        Mazda6_2006,
-        
-        ChevyTraverse_2015,
         KiaSoul_2013,
-        ChevyTraverse_3897,
-        KiaForte_2012,
         HyundaiSonata_0000,
         KiaSoul_5058,
         SaturnVue_9478,
