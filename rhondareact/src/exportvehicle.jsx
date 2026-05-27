@@ -282,8 +282,53 @@ let DodgeDart_2013 = {
         VIN: "2013",
         Type: "cars",
     }
-
+let HondaAccord_2009 = { 
+        Year: "2009",
+        Make: "Honda",
+        Model: "Accord",
+        Miles: "197,000",
+        Engine: "Automatic",
+        ExtColor: "White",
+        VIN: "2009",
+        Type: "cars",
+    }
+let FordFusion_2017 = { 
+        Year: "2017",
+        Make: "Ford",
+        Model: "Fusion",
+        Miles: "140,000",
+        Engine: "Automatic",
+        ExtColor: "Silver",
+        VIN: "2017",
+        Type: "cars",
+    }
+let FordFiesta_2011 = { 
+        Year: "2011",
+        Make: "Ford",
+        Model: "Fiesta",
+        Miles: "111,000",
+        Engine: "Automatic",
+        ExtColor: "Green",
+        VIN: "2011",
+        Type: "cars",
+    }
+let HondaAccord_2000 = { 
+        Year: "2000",
+        Make: "Honda",
+        Model: "Accord",
+        Miles: "215,000",
+        Engine: "Automatic",
+        ExtColor: "Tan",
+        VIN: "2000",
+        Type: "cars",
+    }
 allvehiclearray.push(
+        HondaAccord_2000,
+        FordFiesta_2011,
+        FordFusion_2017,
+        HondaAccord_2009,
+
+        
         MitsubishiRaider_2007,
         DodgeRam_2004,
         KiaSorento_2009,
