@@ -323,21 +323,15 @@ let HondaAccord_2000 = {
         Type: "cars",
     }
 allvehiclearray.push(
-        HondaAccord_2000,
         FordFiesta_2011,
         FordFusion_2017,
-        HondaAccord_2009,
 
         
         MitsubishiRaider_2007,
-        DodgeRam_2004,
-        KiaSorento_2009,
         FordFocus_2014,
         ChevyCaptiva_2013,
         KiaSoul_2013,
-        HyundaiSonata_0000,
         KiaSoul_5058,
-        SaturnVue_9478,
         IsuzuHombre_1998,
         FordEscape_2011,
         KiaSportage_2017,

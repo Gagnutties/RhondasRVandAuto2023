@@ -17,12 +17,6 @@ export default function Trailers() {
                 Bathrooms="2" 
                 Price="$74,900-76,900+Sales Tax"
                 ImageName="./assets/NMH28x56.jpg"/>
-                <HitchNode 
-                Title="Native Trailer"
-                Year="2026"
-                FT="18ft Deck / 2ft Dove"
-                ImageName="./assets/NativeTrailer2026.jpg"
-                />
             </div>
             {/*<div id="trailer_list">*/}
             {/*</div>}*/}
