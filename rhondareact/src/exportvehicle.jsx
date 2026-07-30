@@ -156,17 +156,12 @@ let InfinityG37x_2009 = {
         Type: "cars",
     }
 allvehiclearray.push(
-        JeepCompass_2012, //
-        HyundaiAzera_2009, //
-        KiaSorento_2009, //
         GMCAcadia_2012, //
-
         FordFiesta_2011, //
         MitsubishiRaider_2007, //
         FordFocus_2014, //
         ChevyCaptiva_2013, //
         KiaSoul_2013, //
-        KiaSoul_5058, //
         IsuzuHombre_1998, //
         FordEscape_2011, //
         ); 
