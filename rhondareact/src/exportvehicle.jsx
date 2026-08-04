@@ -129,10 +129,6 @@ allvehiclearray.push(
         IsuzuHombre_1998, //
         FordEscape_2011, //
 
-        DodgeDart_2013,
-        InfinitiG37x_2009,
-        FordEdge_2014,
-
 
 
 

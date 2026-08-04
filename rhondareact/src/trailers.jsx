@@ -1,7 +1,7 @@
 export default function Trailers() {
     return (
         <div class="section" id="trailer_section">
-            <h2>Trailers/Campers</h2>
+            <h2>Manufactured Homes</h2>
             <div id="trailer_list">
                 <TrailerNode 
                 Title="New Manufactured Home 28x48" 
