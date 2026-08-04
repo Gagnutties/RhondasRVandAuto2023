@@ -12,16 +12,7 @@ export default function GetVehicle({category}) {
     //Length of the new list of cars
 
 
-let KiaSoul_5058 = { 
-        Year: "2013",
-        Make: "Kia",
-        Model: "Soul",
-        Miles: "151,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "5058",
-        Type: "cars",
-    }
+
 let IsuzuHombre_1998 = { 
         Year: "1998",
         Make: "Isuzu",
@@ -72,16 +63,6 @@ let FordFocus_2014 = {
         VIN: "2014",
         Type: "cars",
     }
-let ToyotaCamry_2003 = { 
-        Year: "2003",
-        Make: "Toyota",
-        Model: "Camry",
-        Miles: "102,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "2003",
-        Type: "cars",
-    }
 let MitsubishiRaider_2007 = { 
         Year: "2007",
         Make: "Mitsubishi",
@@ -103,51 +84,19 @@ let FordFiesta_2011 = {
         Type: "cars",
     }
 
-
-
-let GMCAcadia_2012 = { 
-        Year: "2012",
-        Make: "GMC",
-        Model: "Acadia",
-        Miles: "138,000",
+    let DodgeDart_2013 = { 
+        Year: "2013",
+        Make: "Dodge",
+        Model: "Dart",
+        Miles: "114,000",
         Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "2012",
-        Type: "suvs",
-    }
-let KiaSorento_2009 = { 
-        Year: "2009",
-        Make: "Kia",
-        Model: "Sorento",
-        Miles: "84,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "2009",
-        Type: "suvs",
-    }
-let HyundaiAzera_2009 = { 
-        Year: "2009",
-        Make: "Hyundai",
-        Model: "Azera",
-        Miles: "137,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "2009",
+        ExtColor: "Blue",
+        VIN: "2013",
         Type: "cars",
     }
-let JeepCompass_2012 = { 
-        Year: "2012",
-        Make: "Jeep",
-        Model: "Compass",
-        Miles: "131,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "2012",
-        Type: "suvs",
-    }
-let InfinityG37x_2009 = { 
+    let InfinitiG37x_2009 = { 
         Year: "2009",
-        Make: "Infinity",
+        Make: "Infiniti",
         Model: "G37x",
         Miles: "165,000",
         Engine: "Automatic",
@@ -155,8 +104,23 @@ let InfinityG37x_2009 = {
         VIN: "2009",
         Type: "cars",
     }
+    let FordEdge_2014 = { 
+            Year: "2014",
+            Make: "Ford",
+            Model: "Edge",
+            Miles: "161,000",
+            Engine: "Automatic",
+            ExtColor: "Red",
+            VIN: "2014",
+            Type: "suvs",
+        }
+
 allvehiclearray.push(
-        GMCAcadia_2012, //
+        DodgeDart_2013,
+        InfinitiG37x_2009,
+        FordEdge_2014,    
+    
+    
         FordFiesta_2011, //
         MitsubishiRaider_2007, //
         FordFocus_2014, //
@@ -164,6 +128,18 @@ allvehiclearray.push(
         KiaSoul_2013, //
         IsuzuHombre_1998, //
         FordEscape_2011, //
+
+        DodgeDart_2013,
+        InfinitiG37x_2009,
+        FordEdge_2014,
+
+
+
+
+
+
+
+
         ); 
 
 
