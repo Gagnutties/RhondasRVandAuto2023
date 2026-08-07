@@ -114,20 +114,94 @@ let FordFiesta_2011 = {
             VIN: "2014",
             Type: "suvs",
         }
+    let MiniCooper_2006 = { 
+            Year: "2006",
+            Make: "Mini",
+            Model: "Cooper",
+            Miles: "141,000",
+            Engine: "Automatic",
+            ExtColor: "White",
+            VIN: "2006",
+            Type: "cars",
+        }
+    let NissanVersa_2017 = { 
+            Year: "2017",
+            Make: "Nissan",
+            Model: "Versa",
+            Miles: "82,000",
+            Engine: "Manual",
+            ExtColor: "Gray",
+            VIN: "2017",
+            Type: "cars",
+        }
+    let KiaSorento_2012 = { 
+            Year: "2012",
+            Make: "Kia",
+            Model: "Sorento",
+            Miles: "165,000",
+            Engine: "Automatic",
+            ExtColor: "White",
+            VIN: "2012",
+            Type: "suvs",
+        }
+    let JeepPatriot_2016 = { 
+            Year: "2016",
+            Make: "Jeep",
+            Model: "Patriot",
+            Miles: "81,000",
+            Engine: "Automatic",
+            ExtColor: "White",
+            VIN: "2016",
+            Type: "suvs",
+        }
+    let FordF150_2006 = { 
+            Year: "2006",
+            Make: "Ford",
+            Model: "F150",
+            Miles: "149,000",
+            Engine: "Automatic",
+            ExtColor: "Gray",
+            VIN: "2006",
+            Type: "trucks",
+        }
+    let FordEscape_2016 = { 
+            Year: "2016",
+            Make: "Ford",
+            Model: "Escape",
+            Miles: "117,000",
+            Engine: "Automatic",
+            ExtColor: "White",
+            VIN: "2016",
+            Type: "suvs",
+        }
+
+
+
+
+
+
+
 
 allvehiclearray.push(
+        MiniCooper_2006,
+        JeepPatriot_2016,
+        KiaSorento_2012,
+        FordF150_2006,
+        NissanVersa_2017,
+        FordEscape_2016,
+        
+        
+        
         DodgeDart_2013,
         InfinitiG37x_2009,
         FordEdge_2014,    
-    
-    
-        FordFiesta_2011, //
-        MitsubishiRaider_2007, //
-        FordFocus_2014, //
-        ChevyCaptiva_2013, //
-        KiaSoul_2013, //
-        IsuzuHombre_1998, //
-        FordEscape_2011, //
+        FordFiesta_2011, 
+        MitsubishiRaider_2007, 
+        FordFocus_2014, 
+        ChevyCaptiva_2013, 
+        KiaSoul_2013, 
+        IsuzuHombre_1998, 
+        FordEscape_2011, 
 
 
 
