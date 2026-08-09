@@ -187,7 +187,6 @@ allvehiclearray.push(
         JeepPatriot_2016,
         KiaSorento_2012,
         FordF150_2006,
-        NissanVersa_2017,
         FordEscape_2016,
         
         
@@ -198,10 +197,7 @@ allvehiclearray.push(
         FordFiesta_2011, 
         MitsubishiRaider_2007, 
         FordFocus_2014, 
-        ChevyCaptiva_2013, 
-        KiaSoul_2013, 
-        IsuzuHombre_1998, 
-        FordEscape_2011, 
+        ChevyCaptiva_2013,    
 
 
 
