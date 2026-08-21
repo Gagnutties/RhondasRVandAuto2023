@@ -175,7 +175,56 @@ let FordFiesta_2011 = {
             Type: "suvs",
         }
 
-
+let BuickEncore_2015 = { 
+            Year: "2015",
+            Make: "Buick",
+            Model: "Encore",
+            Miles: "113,000",
+            Engine: "Automatic",
+            ExtColor: "Brown",
+            VIN: "2015",
+            Type: "suvs",
+        }
+let ChevyImpala_2010 = { 
+            Year: "2010",
+            Make: "Chevy",
+            Model: "Impala",
+            Miles: "186,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2010",
+            Type: "cars",
+        }
+let KiaSorento_2011 = { 
+            Year: "2012",
+            Make: "Kia",
+            Model: "Sorento",
+            Miles: "182,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2011",
+            Type: "suvs",
+        }
+let BuickEnclave_2012 = { 
+            Year: "2012",
+            Make: "Buick",
+            Model: "Enclave",
+            Miles: "158,000",
+            Engine: "Automatic",
+            ExtColor: "White",
+            VIN: "2012",
+            Type: "suvs",
+        }
+let MazdaCX9_2009 = { 
+            Year: "2009",
+            Make: "Mazda",
+            Model: "CX9",
+            Miles: "130,000",
+            Engine: "Automatic",
+            ExtColor: "Silver",
+            VIN: "2009",
+            Type: "suvs",
+        }
 
 
 
@@ -183,20 +232,23 @@ let FordFiesta_2011 = {
 
 
 allvehiclearray.push(
+        BuickEncore_2015,
+        ChevyImpala_2010,
+        KiaSorento_2011,
+        BuickEnclave_2012,
+        MazdaCX9_2009,
+
+
+
+
+
         MiniCooper_2006,
         JeepPatriot_2016,
         KiaSorento_2012,
         FordF150_2006,
-        FordEscape_2016,
-        
-        
-        
-        DodgeDart_2013,
-        InfinitiG37x_2009,
-        FordEdge_2014,    
+        InfinitiG37x_2009,  
         FordFiesta_2011, 
         MitsubishiRaider_2007, 
-        FordFocus_2014, 
         ChevyCaptiva_2013,    
 
 
