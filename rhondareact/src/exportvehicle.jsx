@@ -225,36 +225,70 @@ let MazdaCX9_2009 = {
             VIN: "2009",
             Type: "suvs",
         }
-
+let ChevyCruze_2017 = { 
+            Year: "2017",
+            Make: "Chevy",
+            Model: "Cruze",
+            Miles: "143,000",
+            Engine: "Automatic",
+            ExtColor: "Blue",
+            VIN: "2017",
+            Type: "cars",
+        }
+let JeepPatriot_2017 = { 
+            Year: "2017",
+            Make: "Jeep",
+            Model: "Patriot",
+            Miles: "143,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2017",
+            Type: "suvs",
+        }
+let JeepPatriot_2014 = { 
+            Year: "2014",
+            Make: "Jeep",
+            Model: "Patriot",
+            Miles: "84,000",
+            Engine: "Automatic",
+            ExtColor: "gray",
+            VIN: "2014",
+            Type: "suvs",
+        }
+let KiaSportage_2007 = { 
+            Year: "2007",
+            Make: "Kia",
+            Model: "Sportage",
+            Miles: "84,000",
+            Engine: "Automatic",
+            ExtColor: "Gold",
+            VIN: "2007",
+            Type: "suvs",
+        }
 
 
 
 
 
 allvehiclearray.push(
+        ChevyCruze_2017,
+        JeepPatriot_2017,
+        JeepPatriot_2014,
+        KiaSportage_2007,
+
+
+
+        
         BuickEncore_2015,
         ChevyImpala_2010,
-        KiaSorento_2011,
-        BuickEnclave_2012,
         MazdaCX9_2009,
-
-
-
-
-
         MiniCooper_2006,
         JeepPatriot_2016,
-        KiaSorento_2012,
         FordF150_2006,
         InfinitiG37x_2009,  
         FordFiesta_2011, 
         MitsubishiRaider_2007, 
         ChevyCaptiva_2013,    
-
-
-
-
-
 
 
 
