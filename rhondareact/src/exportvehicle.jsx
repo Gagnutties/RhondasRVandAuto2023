@@ -265,12 +265,23 @@ let KiaSportage_2007 = {
             VIN: "2007",
             Type: "suvs",
         }
+let KiaSedona_2018 = { 
+            Year: "2018",
+            Make: "Kia",
+            Model: "Sedona",
+            Miles: "119,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2018",
+            Type: "vans",
+        }
 
 
 
 
 
 allvehiclearray.push(
+        KiaSedona_2018,    
         ChevyCruze_2017,
         JeepPatriot_2017,
         JeepPatriot_2014,
