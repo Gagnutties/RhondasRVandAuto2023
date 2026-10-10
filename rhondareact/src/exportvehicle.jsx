@@ -10,90 +10,6 @@ export default function GetVehicle({category}) {
     //Info to get: 
     //All cars of a passed in category
     //Length of the new list of cars
-
-
-
-let IsuzuHombre_1998 = { 
-        Year: "1998",
-        Make: "Isuzu",
-        Model: "Hombre",
-        Miles: "142,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "1998",
-        Type: "trucks",
-    }
-let FordEscape_2011 = { 
-        Year: "2011",
-        Make: "Ford",
-        Model: "Escape",
-        Miles: "129,000",
-        Engine: "Automatic",
-        ExtColor: "Gold",
-        VIN: "2011",
-        Type: "suvs",
-    }
-let KiaSoul_2013 = { 
-        Year: "2013",
-        Make: "Kia",
-        Model: "Soul",
-        Miles: "120,000",
-        Engine: "Automatic",
-        ExtColor: "White",
-        VIN: "2013",
-        Type: "suvs",
-    }
-let ChevyCaptiva_2013 = { 
-        Year: "2013",
-        Make: "Chevy",
-        Model: "Captiva",
-        Miles: "136,000",
-        Engine: "Automatic",
-        ExtColor: "Black",
-        VIN: "2013",
-        Type: "suvs",
-    }
-let FordFocus_2014 = { 
-        Year: "2014",
-        Make: "Ford",
-        Model: "Focus",
-        Miles: "124,000",
-        Engine: "Automatic",
-        ExtColor: "Red",
-        VIN: "2014",
-        Type: "cars",
-    }
-let MitsubishiRaider_2007 = { 
-        Year: "2007",
-        Make: "Mitsubishi",
-        Model: "Raider",
-        Miles: "000,000",
-        Engine: "Automatic",
-        ExtColor: "Gray",
-        VIN: "2007",
-        Type: "trucks",
-    }
-let FordFiesta_2011 = { 
-        Year: "2011",
-        Make: "Ford",
-        Model: "Fiesta",
-        Miles: "111,000",
-        Engine: "Automatic",
-        ExtColor: "Green",
-        VIN: "2011",
-        Type: "cars",
-    }
-
-    let DodgeDart_2013 = { 
-        Year: "2013",
-        Make: "Dodge",
-        Model: "Dart",
-        Miles: "114,000",
-        Engine: "Automatic",
-        ExtColor: "Blue",
-        VIN: "2013",
-        Type: "cars",
-    }
     let InfinitiG37x_2009 = { 
         Year: "2009",
         Make: "Infiniti",
@@ -104,16 +20,6 @@ let FordFiesta_2011 = {
         VIN: "2009",
         Type: "cars",
     }
-    let FordEdge_2014 = { 
-            Year: "2014",
-            Make: "Ford",
-            Model: "Edge",
-            Miles: "161,000",
-            Engine: "Automatic",
-            ExtColor: "Red",
-            VIN: "2014",
-            Type: "suvs",
-        }
     let MiniCooper_2006 = { 
             Year: "2006",
             Make: "Mini",
@@ -123,26 +29,6 @@ let FordFiesta_2011 = {
             ExtColor: "White",
             VIN: "2006",
             Type: "cars",
-        }
-    let NissanVersa_2017 = { 
-            Year: "2017",
-            Make: "Nissan",
-            Model: "Versa",
-            Miles: "82,000",
-            Engine: "Manual",
-            ExtColor: "Gray",
-            VIN: "2017",
-            Type: "cars",
-        }
-    let KiaSorento_2012 = { 
-            Year: "2012",
-            Make: "Kia",
-            Model: "Sorento",
-            Miles: "165,000",
-            Engine: "Automatic",
-            ExtColor: "White",
-            VIN: "2012",
-            Type: "suvs",
         }
     let JeepPatriot_2016 = { 
             Year: "2016",
@@ -164,16 +50,6 @@ let FordFiesta_2011 = {
             VIN: "2006",
             Type: "trucks",
         }
-    let FordEscape_2016 = { 
-            Year: "2016",
-            Make: "Ford",
-            Model: "Escape",
-            Miles: "117,000",
-            Engine: "Automatic",
-            ExtColor: "White",
-            VIN: "2016",
-            Type: "suvs",
-        }
 
 let BuickEncore_2015 = { 
             Year: "2015",
@@ -194,26 +70,6 @@ let ChevyImpala_2010 = {
             ExtColor: "Black",
             VIN: "2010",
             Type: "cars",
-        }
-let KiaSorento_2011 = { 
-            Year: "2012",
-            Make: "Kia",
-            Model: "Sorento",
-            Miles: "182,000",
-            Engine: "Automatic",
-            ExtColor: "Black",
-            VIN: "2011",
-            Type: "suvs",
-        }
-let BuickEnclave_2012 = { 
-            Year: "2012",
-            Make: "Buick",
-            Model: "Enclave",
-            Miles: "158,000",
-            Engine: "Automatic",
-            ExtColor: "White",
-            VIN: "2012",
-            Type: "suvs",
         }
 let MazdaCX9_2009 = { 
             Year: "2009",
@@ -265,44 +121,23 @@ let KiaSportage_2007 = {
             VIN: "2007",
             Type: "suvs",
         }
-let KiaSedona_2018 = { 
-            Year: "2018",
-            Make: "Kia",
-            Model: "Sedona",
-            Miles: "119,000",
-            Engine: "Automatic",
-            ExtColor: "Black",
-            VIN: "2018",
-            Type: "vans",
-        }
 
 
 
 
 
-allvehiclearray.push(
-        KiaSedona_2018,    
+allvehiclearray.push(  
         ChevyCruze_2017,
         JeepPatriot_2017,
         JeepPatriot_2014,
         KiaSportage_2007,
-
-
-
-        
         BuickEncore_2015,
         ChevyImpala_2010,
         MazdaCX9_2009,
         MiniCooper_2006,
         JeepPatriot_2016,
         FordF150_2006,
-        InfinitiG37x_2009,  
-        FordFiesta_2011, 
-        MitsubishiRaider_2007, 
-        ChevyCaptiva_2013,    
-
-
-
+        InfinitiG37x_2009,   
         ); 
 
 
