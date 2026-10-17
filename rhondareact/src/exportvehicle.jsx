@@ -122,11 +122,55 @@ let KiaSportage_2007 = {
             Type: "suvs",
         }
 
+let ChevyCruze_2015 = { 
+            Year: "2015",
+            Make: "Chevy",
+            Model: "Cruze",
+            Miles: "111,000",
+            Engine: "Automatic",
+            ExtColor: "Blue",
+            VIN: "2015",
+            Type: "cars",
+        }
+let HondaAccord_2011 = { 
+            Year: "2011",
+            Make: "Honda",
+            Model: "Accord",
+            Miles: "166,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2011",
+            Type: "cars",
+        }
+let DodgeDart_2014 = { 
+            Year: "2014",
+            Make: "Dodge",
+            Model: "Dart",
+            Miles: "121,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2014",
+            Type: "cars",
+        }
+let FordExpedition_2015 = { 
+            Year: "2015",
+            Make: "Ford",
+            Model: "Expedition",
+            Miles: "187,000",
+            Engine: "Automatic",
+            ExtColor: "Black",
+            VIN: "2015",
+            Type: "suvs",
+        }
 
 
 
+allvehiclearray.push(
+        ChevyCruze_2015,
+        HondaAccord_2011,
+        DodgeDart_2014,
+        FordExpedition_2015,
 
-allvehiclearray.push(  
         ChevyCruze_2017,
         JeepPatriot_2017,
         JeepPatriot_2014,
@@ -136,8 +180,7 @@ allvehiclearray.push(
         MazdaCX9_2009,
         MiniCooper_2006,
         JeepPatriot_2016,
-        FordF150_2006,
-        InfinitiG37x_2009,   
+        InfinitiG37x_2009,
         ); 
 
 
